@@ -104,6 +104,10 @@ a {
   transform: scale(1.1);
 }
 
+.line{
+  border: 2px solid var(--main-color-1);
+}
+
 /* media queries */
 @media (min-width: 1536px) {
   .innerWidth {

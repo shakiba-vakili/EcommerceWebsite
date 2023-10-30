@@ -1,0 +1,32 @@
+.f-container{
+    justify-content: space-between;
+}
+
+.f-left,.f-end{
+    gap: 1rem;
+}
+.f-right{
+    gap: 1rem;
+}
+.f-end{
+    background: var(--main-color-1);
+    padding: 1rem 0;
+    color: var(--background-color);
+    font-size: 13px;
+}
+
+.f-menu{
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: 500;
+}
+
+@media (max-width:768px) {
+    .f-container{justify-content: center;}
+    .f-container>div{
+        align-items: center !important;
+        text-align: center;
+    }
+    
+}
