@@ -15,7 +15,7 @@ function Navbar() {
     <nav className="n-wrapper">
       <div className="n-container paddings innerWidth flexCenter">
         <Link to="/" className="navbar-link">
-          <img className="logoImg" src="./logo.png" alt="logo" width={250} />{" "}
+          <img className="logoImg" src="./logo.png" alt="logo"/>{" "}
         </Link>
 
         <OutsideClickHandler

@@ -5,18 +5,24 @@
 
 .n-container {
   justify-content: space-between;
-  padding: 0.5rem 0;
+  padding: 1rem 0;
   color: var(--text-color);
 }
 
 .n-menu {
-  gap: 2rem;
+  gap: 1rem;
 }
 
-.n-menu > *hover {
+.n-menu > *:hover {
   cursor: pointer;
 }
 
+.logoImg {
+  width: 60%;
+}
+.logoImg2 {
+  display: none;
+}
 .menu-icon {
   display: none;
 }
@@ -28,7 +34,6 @@
   .logoImg {
     width: 50%;
     margin: 0 0.5rem;
-
   }
 
   @media (max-width: 768px) {
@@ -40,19 +45,40 @@
     }
     .n-menu {
       z-index: 100;
-      color: var(--text-color);
+      color: white;
       position: absolute;
       top: 3rem;
       right: 4rem;
-      background: white;
+      background: var(--main-color-1);
       flex-direction: column;
       font-weight: 500;
-      gap: 2rem;
-      padding: 3rem;
+      gap: 1rem;
+      padding: 2rem;
       border-radius: 10px;
-      align-items: flex-start;
+      align-items: center;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
       transition: all 300ms ease-in;
+    }
+    .n-menu > *:not(:last-child) {
+
+  font-weight: 600;
+  padding: 0.6rem 1.4rem;
+  background: transparent;
+  border: none;
+  border-radius: 4px;
+}
+.n-menu > *:not(:last-child):hover {
+  cursor: pointer;
+  transform: scale(1);
+  color: var(--main-color-1);
+  background: white;
+ 
+}
+    
+    @media (max-width: 450px) {
+      .logoImg {
+        display: none;
+      }
     }
   }
 }
