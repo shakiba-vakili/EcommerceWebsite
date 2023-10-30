@@ -14,19 +14,46 @@
     color: var(--background-color);
     font-size: 13px;
 }
+.footerImg{
+    width: 20%;
+}
 
 .f-menu{
     flex-direction: column;
-    gap: 1.5rem;
-    margin-top: 1.5rem;
     font-weight: 500;
+    gap: .2rem;
+    align-items: center;
+
 }
 
+.f-menu>*{
+    padding: 0.4rem;
+    background: transparent;
+    border: none;
+    border-radius: 4px;
+    transition: all 200ms ease-in;
+}
+.f-menu >:hover {
+    cursor: pointer;
+    transform: scale(1);
+    color: white;
+    background:var(--main-color-1);
+   
+  }
 @media (max-width:768px) {
-    .f-container{justify-content: center;}
+    .f-container{justify-content: space-between;}
     .f-container>div{
-        align-items: center !important;
-        text-align: center;
+        width: 50%;
     }
+    .f-menu{
+font-size: 13px;
+    }
+   
+    @media (max-width: 450px) {
+        
+        .footerImg{
+            width: 15%;
+        }
+      }
     
 }
