@@ -1,0 +1,25 @@
+:root {
+    --accent-color-1: #0088CC; /* Bright blue for accent #1 */
+    --accent-color-2: #FFA500; /* Orange for accent #2 */
+    --background-color: #F0F0F0; /* Light gray for background */
+    --text-color: #333333; /* Dark gray for text */
+    --link-color: #0073e6; /* Blue for links */
+    --hover-color: #FFD700; /* Gold for hover/highlight effect */
+    
+    --logo-color-1: #124170; /* Your logo color #124170 */
+    --logo-color-2: #B0B1B1; /* Your logo color #B0B1B1 */
+  }
+  
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 100px; /* Removes default body margin */
+}
+
+img {
+    max-width: 100%; /* Ensure the image doesn't exceed the container width */
+    height: auto; /* Maintain image aspect ratio */
+}
