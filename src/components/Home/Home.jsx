@@ -51,7 +51,7 @@ function Home() {
         <div className="innerWidth paddings flexCenter home-container">
           <div className="hero-section">
             <img
-              className="hero-image"
+              className="hero-image "
               src={images[currentImageIndex].src}
               alt={images[currentImageIndex].title}
             />
