@@ -40,7 +40,7 @@ function Home() {
   }, [currentImageIndex, images]);
 
   useEffect(() => {
-    const interval = setInterval(changeImage, 3000);
+    const interval = setInterval(changeImage, 5000);
     return () => clearInterval(interval);
   }, [changeImage]);
 
@@ -55,9 +55,10 @@ function Home() {
               src={images[currentImageIndex].src}
               alt={images[currentImageIndex].title}
             />
-            <div className="hero-text">
-              <h2>{images[currentImageIndex].title}</h2>
-              <p>{images[currentImageIndex].description}</p>
+            <div className="hero-text flexColStart">
+              <h2 className="primaryTextWhite">{images[currentImageIndex].title}</h2>
+              <h5 className="secondaryTextWhite">{images[currentImageIndex].description}</h5>
+              <p className="textWrap secondaryTextWhite">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis corporis hic neque saepe, eos, aspernatur atque sint .</p>
             </div>
           </div>
           {/* Your Home page content */}

@@ -24,6 +24,9 @@ function Navbar() {
           }}
         >
           <div className="flexCenter n-menu" style={getMenuStyles(menuOpened)}>
+            <Link to="/" className="navbar-link">
+              Home
+            </Link>
             <Link to="/about" className="navbar-link">
               About Us
             </Link>

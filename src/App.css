@@ -1,13 +1,14 @@
 :root {
   --main-color-1: #124170; 
   --main-color-2: #FFA500; 
+  --main-color-3: #FF6900; 
   --secondary-text:#8c8b8b;
   --background-color: #faf7f7; 
   --text-color: #333333;
   --hover-color: #FFD700; 
   --shadow: 0px 23px 21px -8px rgba(136, 160, 255, 0.25);
   --logo-color-2: #B0B1B1; 
-  --gradient:linear-gradient(to bottom, var(--main-color-2), #FF6600);;
+  --gradient:linear-gradient(to left, var(--main-color-2), #FF6600);;
 --gradient-hover:linear-gradient(to bottom, #FF6600, var(--main-color-2));
 }
 
@@ -17,7 +18,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
-  background: var(--background-color);
+  /* background: var(--background-color); */
 
 }
 a {
@@ -78,9 +79,18 @@ a {
   font-weight: bold;
   font-size: 2rem;
 }
+.primaryTextWhite {
+  color:var(--main-color-3);
+  font-weight: bold;
+  font-size: 2rem;
+}
 
 .secondaryText {
   color: var(--secondary-text);
+  font-size: 0.9rem;
+}
+.secondaryTextWhite{
+  color: white;
   font-size: 0.9rem;
 }
 .orangeText {
@@ -106,6 +116,10 @@ a {
 
 .line{
   border: 2px solid var(--main-color-1);
+}
+
+.textWrap{
+  word-wrap: break-word;
 }
 
 /* media queries */

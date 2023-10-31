@@ -1,29 +1,110 @@
+.hero-section {
+  background: transparent;
+  position: relative;
+}
 .hero-image {
-    width: 1200px;
-    height: 550px;
+  width: 1200px;
+  height: 550px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5), inset 0 0 -20px rgba(0, 0, 0, 0.5);
+}
+.hero-text {
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  padding: 6rem 3rem;
+  border-radius: 5px;
+  color: white;
+  text-align: start;
+  gap: 1rem;
+  backdrop-filter: blur(10px);
+  background-color: #12417056;
+  max-width: 40%;
+}
+.hero-text h2 {
+  font-size: 2.8rem;
+}
+.hero-text h5 {
+  font-size: 1.4rem;
+}
+.hero-text p {
+  font-size: 1.1rem;
+}
+@media (max-width: 1024px) {
+  .hero-image {
+    width: 950px;
+    height: 500px;
   }
-  
-  @media (max-width: 1024px) {
-    .hero-image {
-        width: 950px;
-        height: 500px;
-      }
+  .hero-text h2 {
+    font-size: 2rem;
+  }
+  .hero-text h5 {
+    font-size: 1rem;
+  }
+  .hero-text p {
+    font-size: 0.8rem;
+  }
+  .hero-text {
+    top: 45%;
+    left: 25%;
+    padding: 4rem;
+  }
   @media (max-width: 786px) {
     .hero-image {
-        width: 650px; 
-        height: 400px;
+      width: 650px;
+      height: 400px;
+    }
+    .hero-text h2 {
+      font-size: 1.8rem;
+    }
+    .hero-text h5 {
+      font-size: 0.8rem;
+    }
+    .hero-text p {
+      font-size: 0.6rem;
+    }
+    .hero-text {
+      top: 45%;
+      left: 25%;
+      padding: 3rem 4rem;
+      gap: 0.7rem;
+    }
+    .hero-text.flexColStart {
+      padding: 2rem;
+    }
+    @media (max-width: 450px) {
+      .hero-image {
+        width: 390px;
+        height: 250px;
       }
-      @media (max-width: 450px) {
+      .hero-text h2 {
+        font-size: 1rem;
+      }
+      .hero-text h5 {
+        font-size: 0.5rem;
+      }
+      .hero-text p {
+        font-size: 0.4rem;
+      }
+      .hero-text {
+        top: 50%;
+        left: 50%;
+        padding: 4rem ;
+        gap: 0.7rem;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+      }
+      .hero-text.flexColStart {
+        padding: 1rem;
+      }
+      @media (max-width: 400px) {
         .hero-image {
-            width: 390px; 
-            height: 250px;
-          }
-          @media (max-width: 400px) {
-            .hero-image {
-                width: 320px; 
-                height: 250px;
-              }
-          }
+          width: 320px;
+          height: 250px;
+        }
       }
+    }
   }
 }
