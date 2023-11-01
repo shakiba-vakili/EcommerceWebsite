@@ -97,10 +97,10 @@ function Home() {
                 perspiciatis tempora?
               </span>
               <div className="flexStart buttonSpace">
-                <Link to="/product" className="navbar-link-bc">
-                  <button className="button">Product &rarr;</button>
+                <Link to="/about" className="navbar-link">
+                  <button className="button">Who we are?</button>
                 </Link>
-                <Link to="/contact" className="navbar-link-bc">
+                <Link to="/contact" className="navbar-link">
                   <button className="buttonWhite">Contact &rarr;</button>
                 </Link>
               </div>
@@ -122,7 +122,7 @@ function Home() {
                 <img className="border-radius" src="heroImage1.jpg" alt="" />
                 <div className="textDiv">
                   <span className="primaryTextWhite">service title</span>
-                  <p className="textWrap secondaryTextWhite">
+                  <p className="textWrap secondaryText">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Quae molestiae eveniet recusandae, fuga consequuntur
                     quisquam.
@@ -134,7 +134,7 @@ function Home() {
                 <img className="border-radius" src="heroImage1.jpg" alt="" />
                 <div className="textDiv">
                   <span className="primaryTextWhite">service title</span>
-                  <p className="textWrap secondaryTextWhite">
+                  <p className="textWrap secondaryText">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Quae molestiae eveniet recusandae, fuga consequuntur
                     quisquam.
@@ -146,7 +146,7 @@ function Home() {
                 <img className="border-radius" src="heroImage1.jpg" alt="" />
                 <div className="textDiv">
                   <span className="primaryTextWhite">service title</span>
-                  <p className="textWrap secondaryTextWhite">
+                  <p className="textWrap secondaryText">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Quae molestiae eveniet recusandae, fuga consequuntur
                     quisquam.
@@ -158,7 +158,7 @@ function Home() {
                 <img className="border-radius" src="heroImage1.jpg" alt="" />
                 <div className="textDiv">
                   <span className="primaryTextWhite">service title</span>
-                  <p className="textWrap secondaryTextWhite">
+                  <p className="textWrap secondaryText">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Quae molestiae eveniet recusandae, fuga consequuntur
                     quisquam.

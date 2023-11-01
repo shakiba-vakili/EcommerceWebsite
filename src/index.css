@@ -16,7 +16,7 @@ code {
   --main-color-1: #124170;
   --main-color-2: #ffa500;
   --main-color-3: #ff6900;
-  --secondary-text: #8c8b8b;
+  --secondary-text: #ddd;
   --background-color: #faf7f7;
   --text-color: #333333;
   --hover-color: #ffd700;
@@ -107,6 +107,11 @@ a {
   font-weight: bold;
   font-size: 2rem;
 }
+.primaryTextGray {
+  color: var(--secondary-text);
+  font-weight: bold;
+  font-size: 2rem;
+}
 
 .secondaryText {
   color: var(--secondary-text);
@@ -162,7 +167,9 @@ a {
 .border-radius {
   border-radius: 4px;
 }
-
+.displayNone{
+  display: none;
+}
 /* media queries */
 @media (min-width: 1536px) {
   .innerWidth {
