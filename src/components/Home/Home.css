@@ -108,6 +108,7 @@
   border-radius: 4px 4px 0 0;
 }
 @media (max-width: 1024px) {
+
   .hero-image {
     width: 950px;
     height: 500px;

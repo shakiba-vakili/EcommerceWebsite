@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer>
-      <div className="f-wrapper mt-8">
+      <div className="f-wrapper">
         <div className="innerWidth paddings flexCenter f-container">
           <div className="flexColStart f-left">
             <img src="./logo2.png" alt="" className="footerImg"/>
@@ -20,20 +20,20 @@ function Footer() {
           <div className="flexColEnd f-right">
             <div className="flexColEnd f-menu">
               <Link to="/about" className="navbar-link">
-                About Us
+                Who we are?
               </Link>
               <Link to="/product" className="navbar-link">
-                Product
-              </Link>
-              <Link to="/about" className="navbar-link">
-                Tab 2
-              </Link>
-              <Link to="/about" className="navbar-link">
-                Tab 3{" "}
+              Product & Services
               </Link>
               <Link to="/contact" className="navbar-link">
                 Contact
               </Link>
+              <Link to="/careers" className="navbar-link">
+            Careers 
+            </Link>
+              <Link to="/businessPractices" className="navbar-link">
+              Business Practices
+            </Link>
             </div>
           </div>
         </div>

@@ -7,6 +7,8 @@ import Contact from './components/Contact/Contact';
 import Product from './components/Product/Product';
 import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy'
 import TermsOfService from './components/TermsOfService/TermsOfService'
+import Careers from './components/Careers/Careers'
+import BusinessPractices from './components/BusinessPractices/BusinessPractices'
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Route path="/product" element={<Product />} />
         <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
         <Route path="/termsOfService" element={<TermsOfService />} />
+        <Route path="/businessPractices" element={<BusinessPractices />} />
+        <Route path="/careers" element={<Careers />} />
       </Routes>
     </BrowserRouter>
   );

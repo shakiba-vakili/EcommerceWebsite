@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 
-function Contact() {
+function PrivacyPolicy() {
   return (
     <div>
       <Navbar />
@@ -17,4 +17,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default PrivacyPolicy;

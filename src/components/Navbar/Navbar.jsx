@@ -24,20 +24,20 @@ function Navbar() {
           }}
         >
           <div className="flexCenter n-menu" style={getMenuStyles(menuOpened)}>
-            <Link to="/" className="navbar-link">
-              Home
+          <Link to="/businessPractices" className="navbar-link">
+              Business Practices
             </Link>
-            <Link to="/about" className="navbar-link">
-              About Us
+            <Link to="/careers" className="navbar-link">
+            Careers 
             </Link>
             <Link to="/product" className="navbar-link">
-              Product
+              Product & Services
             </Link>
             <Link to="/about" className="navbar-link">
-              Tab 2
+            Who we are?
             </Link>
-            <Link to="/about" className="navbar-link">
-              Tab 3{" "}
+            <Link to="/" className="navbar-link">
+              Home
             </Link>
             <Link to="/contact" className="navbar-link">
               <button className="button">Contact</button>

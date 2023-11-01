@@ -2,13 +2,13 @@ import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 
-function TermsOfService() {
+function BusinessPractices() {
   return (
     <div>
       <Navbar />
-      <div className="tos-wrapper">
-        <div className="tos-container paddings innerWidth flexCenter">
-          <h2>TermsOfService</h2>
+      <div className="a-wrapper">
+        <div className="a-container paddings innerWidth flexCenter">
+          <h2>Business Practices</h2>
         </div>
       </div>
       {/* Your Home page content */}
@@ -17,4 +17,4 @@ function TermsOfService() {
   );
 }
 
-export default TermsOfService;
+export default BusinessPractices;

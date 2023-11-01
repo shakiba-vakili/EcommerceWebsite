@@ -1,60 +1,80 @@
-.f-container{
+.f-wrapper{
+    margin-top: 4rem;
+}
+.f-container {
+  justify-content: space-between;
+}
+
+.f-left,
+.f-end {
+  gap: 1rem;
+}
+.f-right {
+  gap: 1rem;
+}
+.f-end {
+  background: var(--main-color-1);
+  padding: 1rem 0;
+  color: var(--background-color);
+  font-size: 9px;
+}
+.footerImg {
+  width: 20%;
+}
+
+.f-menu {
+  flex-direction: column;
+  font-weight: 500;
+  gap: 0.2rem;
+  align-items: flex-end;
+}
+.f-menu > * {
+    font-size: 10px;
+  padding: 0.4rem;
+  background: transparent;
+  border: none;
+  border-radius: 4px;
+  transition: all 200ms ease-in;
+}
+.f-menu > :hover {
+  cursor: pointer;
+  transform: scale(1);
+  color: white;
+  background: var(--main-color-1);
+}
+
+@media (max-width: 768px) {
+  .f-container {
     justify-content: space-between;
-}
-
-.f-left,.f-end{
-    gap: 1rem;
-}
-.f-right{
-    gap: 1rem;
-}
-.f-end{
-    background: var(--main-color-1);
-    padding: 1rem 0;
-    color: var(--background-color);
-    font-size: 13px;
-}
-.footerImg{
-    width: 20%;
-}
-
-.f-menu{
-    flex-direction: column;
-    font-weight: 500;
-    gap: .2rem;
-    align-items: center;
-
-}
-
-.f-menu>*{
-    padding: 0.4rem;
-    background: transparent;
-    border: none;
-    border-radius: 4px;
-    transition: all 200ms ease-in;
-}
-.f-menu >:hover {
-    cursor: pointer;
-    transform: scale(1);
-    color: white;
-    background:var(--main-color-1);
-   
   }
- 
-@media (max-width:768px) {
-    .f-container{justify-content: space-between;}
-    .f-container>div{
-        width: 50%;
+  .f-container > div {
+    width: 50%;
+  }
+  .f-menu {
+    font-size: 13px;
+  }
+
+  @media (max-width: 450px) {
+
+    .footerImg {
+      width: 25%;
     }
-    .f-menu{
-font-size: 13px;
+    .flexCenter.f-container {
+      flex-direction: column;
     }
-   
-    @media (max-width: 450px) {
-        
-        .footerImg{
-            width: 15%;
-        }
-      }
-    
+    .flexCenter.f-container .f-left,
+    .flexCenter.f-container .f-rigth {
+      align-items: center;
+      margin: 0 auto;
+      text-align: center;
+      justify-content: center;
+      width: 90%;
+    }
+    .f-menu {
+      justify-content: center;
+      align-items:center;
+      margin: 0 auto;
+
+    }
+  }
 }

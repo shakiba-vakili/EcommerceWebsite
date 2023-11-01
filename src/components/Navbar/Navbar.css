@@ -11,11 +11,27 @@
 }
 
 .n-menu {
-  gap: 1rem;
+  gap: 1.5rem;
+}
+.n-menu > * {
+font-size: 10px;
+}
+.n-menu .button {
+font-size: 10px;
+}
+.n-menu >*:not(:last-child){
+  background: transparent;
+  border: none;
+  border-radius: 4px;
+  transition: all 200ms ease-in;
+  padding: .5rem;
 }
 
-.n-menu > *:hover {
+.n-menu > *:not(:last-child):hover {
   cursor: pointer;
+  transform: scale(1);
+    color: white;
+    background:var(--main-color-1);
 }
 
 .logoImg {
@@ -54,7 +70,7 @@
       flex-direction: column;
       font-weight: 500;
       gap: 1rem;
-      padding: 2rem;
+      padding: 2rem .5rem;
       border-radius: 10px;
       align-items: center;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);

@@ -68,10 +68,10 @@ function Home() {
                 corporis hic neque saepe, eos, aspernatur atque sint .
               </p>
               <div className="flexStart buttonSpace">
-                <Link to="/product" className="navbar-link">
+                <Link to="/product" className="navbar-link-bc">
                   <button className="buttonWhite">Product</button>
                 </Link>
-                <Link to="/contact" className="navbar-link">
+                <Link to="/contact" className="navbar-link-bc">
                   <button className="button">Contact</button>
                 </Link>
               </div>
@@ -97,10 +97,10 @@ function Home() {
                 perspiciatis tempora?
               </span>
               <div className="flexStart buttonSpace">
-                <Link to="/product" className="navbar-link">
+                <Link to="/product" className="navbar-link-bc">
                   <button className="button">Product &rarr;</button>
                 </Link>
-                <Link to="/contact" className="navbar-link">
+                <Link to="/contact" className="navbar-link-bc">
                   <button className="buttonWhite">Contact &rarr;</button>
                 </Link>
               </div>
