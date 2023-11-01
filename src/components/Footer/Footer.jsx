@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer>
-      <div className="f-wrapper">
+      <div className="f-wrapper mt-8">
         <div className="innerWidth paddings flexCenter f-container">
           <div className="flexColStart f-left">
             <img src="./logo2.png" alt="" className="footerImg"/>
