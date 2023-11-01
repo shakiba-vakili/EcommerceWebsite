@@ -3,7 +3,7 @@ import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import "./Home.css"; // Import a CSS file for styling
 import { Link } from "react-router-dom";
-
+import data from './imgData.json'
 function Home() {
   const [images, setImages] = useState([
     {
@@ -15,23 +15,7 @@ function Home() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
-    const imageInfo = [
-      {
-        src: "heroImage1.jpg",
-        title: "Image 1",
-        description: "This is the first image description.",
-      },
-      {
-        src: "heroImage2.jpg",
-        title: "Image 2",
-        description: "This is the second image description.",
-      },
-      {
-        src: "heroImage3.jpg",
-        title: "Image 3",
-        description: "This is the third image description.",
-      },
-    ];
+    const imageInfo = data;
 
     setImages(imageInfo);
   }, []); // Empty dependency array, as this effect should run once
