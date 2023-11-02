@@ -2,12 +2,8 @@ import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import "./About.css";
-import data from "./sliderData.json";
-import 'swiper/swiper-bundle.min.css';
-import { sliderSettings } from "./sliderSettings";
-import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Navigation } from "swiper/core";
-SwiperCore.use([Navigation]);
+import Slider from "./Slider";
+
 
 function About() {
   return (
@@ -73,26 +69,7 @@ function About() {
               <span className="primaryTextWhite ">Who we are?</span>
             </div>
           </div>
-          <div className="paddings innerWidth r-container">
-            <Swiper {...sliderSettings}>
-              {data.map((card, i) => (
-                <SwiperSlide key={i}>
-                  <div className="flexColStart r-card">
-                    <img src={card.image} alt="home" />
-
-                    <span className="secondaryText r-price">
-                      <span style={{ color: "orange" }}>$</span>
-                      <span>{card.price}</span>
-                    </span>
-                    <span className="primaryText">{card.name}</span>
-                    <span className="secondaryText">{card.detail}</span>
-                  </div>
-                </SwiperSlide>
-              ))}
-            </Swiper>
-            <div className="swiper-button-prev">Previous</div>
-            <div className="swiper-button-next">Next</div>
-          </div>
+          <Slider />
         </div>
       </div>
       {/* Your Home page content */}
