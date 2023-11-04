@@ -20,6 +20,8 @@
 }
 .footerImg {
   width: 50%;
+  background-position: center center;
+    background-size: cover;
 }
 
 .f-menu {

@@ -177,7 +177,10 @@ a {
   display: none;
 }
 .h5Headers{
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+.lineHeight{
+  line-height: 1.5rem;
 }
 /* media queries */
 @media (min-width: 1536px) {

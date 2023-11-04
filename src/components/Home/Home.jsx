@@ -110,8 +110,8 @@ function Home() {
               <span className="orangeText">Our Product</span>
               <span className="primaryText">Which industry we are?</span>
             </div>
-            <div className="flexCenter galleryImg">
-              <div className="gallerDiv">
+            <div className="flexCenter home-galleryImg">
+              <div className="home-gallerDiv">
                 <img className="border-radius" src="heroImage1.jpg" alt="" />
                 <div className="textDiv">
                   <span className="primaryTextWhite">service title</span>
@@ -127,7 +127,7 @@ function Home() {
                   </button>
                 </Link>
               </div>
-              <div className="gallerDiv">
+              <div className="home-gallerDiv">
                 <img className="border-radius" src="heroImage1.jpg" alt="" />
                 <div className="textDiv">
                   <span className="primaryTextWhite">service title</span>
@@ -141,9 +141,9 @@ function Home() {
                   <button className="button galleryBtn">
                     More Info &rarr;
                   </button>
-                </Link>{" "}
+                </Link>
               </div>
-              <div className="gallerDiv">
+              <div className="home-gallerDiv">
                 <img className="border-radius" src="heroImage1.jpg" alt="" />
                 <div className="textDiv">
                   <span className="primaryTextWhite">service title</span>
@@ -157,9 +157,9 @@ function Home() {
                   <button className="button galleryBtn">
                     More Info &rarr;
                   </button>
-                </Link>{" "}
+                </Link>
               </div>
-              <div className="gallerDiv">
+              <div className="home-gallerDiv">
                 <img className="border-radius" src="heroImage1.jpg" alt="" />
                 <div className="textDiv">
                   <span className="primaryTextWhite">service title</span>
@@ -173,9 +173,11 @@ function Home() {
                   <button className="button galleryBtn">
                     More Info &rarr;
                   </button>
-                </Link>{" "}
+                </Link>
               </div>
+              
             </div>
+          
           </div>
         </div>
       </div>
