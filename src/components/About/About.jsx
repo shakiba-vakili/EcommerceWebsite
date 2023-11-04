@@ -11,7 +11,7 @@ function About() {
       <Navbar />
       <div className="a-wrapper">
         <div className="a-container paddings innerWidth flexCenter">
-        <h5 className="primaryTextOrange h5Headers flexCenter">AGORA International Incorporated</h5>
+        <h5 className="primaryTextOrange h5Headers flexCenter textWrap">AGORA International Incorporated</h5>
 
           <motion.div
             initial={{ x: "5rem", opacity: 0 }}

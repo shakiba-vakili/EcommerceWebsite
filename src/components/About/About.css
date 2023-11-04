@@ -63,13 +63,21 @@
   .first .a-left {
     padding-left: 0;
   }
-  .second .a-left{
+  .second .a-left {
     display: none;
   }
-  .a-left.displayNone{
+  .a-left.displayNone {
     display: block;
   }
-  .a-left.displayNone .primaryTextWhite{
+  .a-left.displayNone .primaryTextWhite {
     margin-top: 1rem;
+  }
+  .h5Headers {
+    font-size: 1.5rem;
+  }
+  @media (max-width: 450px) {
+    .a-container .h5Headers {
+      display: none;
+    }
   }
 }

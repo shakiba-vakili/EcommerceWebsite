@@ -34,3 +34,19 @@
     width:550px;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
 }
+
+@media (max-width: 1024px) {
+  .image-container img{
+    height: 280px;
+    width:350px;
+}
+@media (max-width: 450px) {
+  .image-container img{
+    height: 280px;
+    width:280px;
+}
+.h5Headers{
+  font-size: 1.5rem;
+}
+}
+}

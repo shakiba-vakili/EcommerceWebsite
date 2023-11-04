@@ -121,7 +121,11 @@ function Home() {
                     quisquam.
                   </p>
                 </div>
-                <button className="button galleryBtn">More Info &rarr;</button>
+                <Link to="/product" className="navbar-link-bc">
+                  <button className="button galleryBtn">
+                    More Info &rarr;
+                  </button>
+                </Link>
               </div>
               <div className="gallerDiv">
                 <img className="border-radius" src="heroImage1.jpg" alt="" />
@@ -133,7 +137,11 @@ function Home() {
                     quisquam.
                   </p>
                 </div>
-                <button className="button galleryBtn">More Info &rarr;</button>
+                <Link to="/product" className="navbar-link-bc">
+                  <button className="button galleryBtn">
+                    More Info &rarr;
+                  </button>
+                </Link>{" "}
               </div>
               <div className="gallerDiv">
                 <img className="border-radius" src="heroImage1.jpg" alt="" />
@@ -145,7 +153,11 @@ function Home() {
                     quisquam.
                   </p>
                 </div>
-                <button className="button galleryBtn">More Info &rarr;</button>
+                <Link to="/product" className="navbar-link-bc">
+                  <button className="button galleryBtn">
+                    More Info &rarr;
+                  </button>
+                </Link>{" "}
               </div>
               <div className="gallerDiv">
                 <img className="border-radius" src="heroImage1.jpg" alt="" />
@@ -157,7 +169,11 @@ function Home() {
                     quisquam.
                   </p>
                 </div>
-                <button className="button galleryBtn">More Info &rarr;</button>
+                <Link to="/product" className="navbar-link-bc">
+                  <button className="button galleryBtn">
+                    More Info &rarr;
+                  </button>
+                </Link>{" "}
               </div>
             </div>
           </div>
