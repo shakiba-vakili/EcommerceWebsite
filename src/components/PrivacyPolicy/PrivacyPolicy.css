@@ -1,0 +1,9 @@
+.tos-container {
+  gap: 2rem;
+}
+.tos-text {
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
