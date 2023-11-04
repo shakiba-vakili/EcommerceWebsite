@@ -9,7 +9,7 @@ function Footer() {
       <div className="f-wrapper">
         <div className="innerWidth paddings flexCenter f-container">
           <div className="flexColStart f-left">
-            <img src="./logo2.png" alt="" className="footerImg"/>
+            <img src="./logo2.png" alt="" className="footerImg" />
             <span className="secondaryText">
               Lorem ipsum dolor sit amet.
               <br />
@@ -23,17 +23,17 @@ function Footer() {
                 Who we are?
               </Link>
               <Link to="/product" className="navbar-link">
-              Product & Services
+                Product & Services
               </Link>
-              <Link to="/contact" className="navbar-link">
-                Contact
-              </Link>
+              <a href="mailto:shakibvakili@gmail.com" className="navbar-link">
+               Contact
+              </a>
               <Link to="/careers" className="navbar-link">
-            Careers 
-            </Link>
+                Careers
+              </Link>
               <Link to="/businessPractices" className="navbar-link">
-              Business Practices
-            </Link>
+                Business Practices
+              </Link>
             </div>
           </div>
         </div>

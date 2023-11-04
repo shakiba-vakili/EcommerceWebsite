@@ -39,9 +39,10 @@ function Navbar() {
             <Link to="/" className="navbar-link">
               Home
             </Link>
-            <Link to="/contact" className="navbar-link">
-              <button className="button">Contact</button>
-            </Link>
+            <a href="mailto:shakibvakili@gmail.com">
+                  {" "}
+                  <button className="button">Contact</button>
+                </a>
           </div>
         </OutsideClickHandler>
         <div className="menu-icon" onClick={() => setMenuOpen((prev) => !prev)}>

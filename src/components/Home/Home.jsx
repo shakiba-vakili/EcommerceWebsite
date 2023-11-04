@@ -3,7 +3,7 @@ import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import "./Home.css"; // Import a CSS file for styling
 import { Link } from "react-router-dom";
-import data from './imgData.json'
+import data from "./imgData.json";
 function Home() {
   const [images, setImages] = useState([
     {
@@ -55,9 +55,10 @@ function Home() {
                 <Link to="/product" className="navbar-link-bc">
                   <button className="buttonWhite">Product</button>
                 </Link>
-                <Link to="/contact" className="navbar-link-bc">
+                <a href="mailto:shakibvakili@gmail.com">
+                  {" "}
                   <button className="button">Contact</button>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
@@ -84,9 +85,10 @@ function Home() {
                 <Link to="/about" className="navbar-link">
                   <button className="button">Who we are?</button>
                 </Link>
-                <Link to="/contact" className="navbar-link">
-                  <button className="buttonWhite">Contact &rarr;</button>
-                </Link>
+                <a href="mailto:shakibvakili@gmail.com">
+                  {" "}
+                  <button className="buttonWhite">Contact</button>
+                </a>
               </div>
             </div>
             <div className="flexColEnd rightAbout">
