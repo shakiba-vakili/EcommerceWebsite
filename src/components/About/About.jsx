@@ -3,7 +3,7 @@ import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import "./About.css";
 import Slider from "./Slider";
-
+import { motion } from "framer-motion";
 
 function About() {
   return (
@@ -11,7 +11,14 @@ function About() {
       <Navbar />
       <div className="a-wrapper">
         <div className="a-container paddings innerWidth flexCenter">
-          <div className="flexCenter paddings innerWidth first">
+        <h5 className="primaryTextOrange h5Headers flexCenter">AGORA International Incorporated</h5>
+
+          <motion.div
+            initial={{ x: "5rem", opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 2, type: "spring" }}
+            className="flexCenter paddings innerWidth first"
+          >
             <div className="flexColCenter a-left innerWidth">
               <span className="orangeText ">About Us</span>
               <span className="primaryTextWhite ">Who we are?</span>
@@ -36,8 +43,13 @@ function About() {
                 laudantium vel doloribus maxime, placeat consequatur quae non!
               </p>
             </div>
-          </div>
-          <div className="flexCenter paddings innerWidth second">
+          </motion.div>
+          <motion.div
+            initial={{ x: "5rem", opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 2, type: "spring" }}
+            className="flexCenter paddings innerWidth second"
+          >
             <div className=" flexColCenter a-left innerWidth displayNone">
               <span className="orangeText flexColCenter">About Us</span>
               <span className="primaryTextWhite flexColCenter">
@@ -68,7 +80,7 @@ function About() {
               <span className="orangeText ">About Us</span>
               <span className="primaryTextWhite ">Who we are?</span>
             </div>
-          </div>
+          </motion.div>
           <Slider />
         </div>
       </div>
@@ -79,4 +91,3 @@ function About() {
 }
 
 export default About;
-

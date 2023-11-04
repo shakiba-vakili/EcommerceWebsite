@@ -25,6 +25,20 @@ const data = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla cumque autem ipsa culpa esse omnis eaque sapiente fuga ullam quidem, sunt optio mollitia sequi accusantium ipsum voluptatibus sint obcaecati non laborum vitae cupiditate a qui. Eius quod at animi odio!",
   },
+  {
+    src: "heroImage1.jpg",
+    title: "Image 4",
+    headLine: "This is the four image.",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla cumque autem ipsa culpa esse omnis eaque sapiente fuga ullam quidem, sunt optio mollitia sequi accusantium ipsum voluptatibus sint obcaecati non laborum vitae cupiditate a qui. Eius quod at animi odio!",
+  },
+  {
+    src: "heroImage2.jpg",
+    title: "Image 5",
+    headLine: "This is the five image.",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla cumque autem ipsa culpa esse omnis eaque sapiente fuga ullam quidem, sunt optio mollitia sequi accusantium ipsum voluptatibus sint obcaecati non laborum vitae cupiditate a qui. Eius quod at animi odio!",
+  },
 ];
 
 const App = () => {

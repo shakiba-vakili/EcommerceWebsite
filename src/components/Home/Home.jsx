@@ -4,6 +4,8 @@ import Footer from "../Footer/Footer";
 import "./Home.css"; // Import a CSS file for styling
 import { Link } from "react-router-dom";
 import data from "./imgData.json";
+import { motion } from "framer-motion";
+
 function Home() {
   const [images, setImages] = useState([
     {
@@ -34,7 +36,12 @@ function Home() {
       <Navbar />
       <div className="home-wrapper">
         <div className="innerWidth paddings flexCenter home-container">
-          <div className="hero-section mt-2 ">
+          <motion.div
+            initial={{ x: "5rem", opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 2, type: "spring" }}
+            className="hero-section mt-2 "
+          >
             <img
               className="hero-image "
               src={images[currentImageIndex].src}
@@ -61,7 +68,7 @@ function Home() {
                 </a>
               </div>
             </div>
-          </div>
+          </motion.div>
           {/* about us */}
           <div className="aboutHome-container flexCenter mt-8">
             <div className="flexColStart leftAbout">

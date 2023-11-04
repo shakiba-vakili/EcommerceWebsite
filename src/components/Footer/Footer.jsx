@@ -2,6 +2,7 @@
 import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 function Footer() {
   return (
@@ -9,8 +10,17 @@ function Footer() {
       <div className="f-wrapper">
         <div className="innerWidth paddings flexCenter f-container">
           <div className="flexColStart f-left">
-            <img src="./logo2.png" alt="" className="footerImg" />
-            <span className="secondaryText">
+            <Link to="/" className="navbar-link">
+              <motion.img
+                initial={{ x: "5rem", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 2, type: "spring" }}
+                src="./logo2.png"
+                className="footerImg"
+                alt="logo"
+              />{" "}
+            </Link>
+            <span className="secondaryTextGray">
               Lorem ipsum dolor sit amet.
               <br />
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -26,7 +36,7 @@ function Footer() {
                 Product & Services
               </Link>
               <a href="mailto:shakibvakili@gmail.com" className="navbar-link">
-               Contact
+                Contact
               </a>
               <Link to="/careers" className="navbar-link">
                 Careers
