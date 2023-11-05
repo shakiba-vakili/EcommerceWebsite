@@ -1,9 +1,19 @@
-.tos-container {
+.pp-container {
   gap: 2rem;
+
 }
-.tos-text {
+.pp-text {
   width: 70%;
   align-items: center;
   justify-content: center;
   gap: 1.5rem;
+}
+@media (max-width: 786px) {
+.pp-container.paddings{
+padding: 1rem;
+  }
+  .pp-text {
+    width:100%;
+    gap: 2rem;
+  }
 }

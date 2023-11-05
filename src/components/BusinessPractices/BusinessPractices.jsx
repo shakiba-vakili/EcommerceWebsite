@@ -17,10 +17,12 @@ function BusinessPractices() {
         >
           <div className="bp-image-container">
             <img src="./heroImage2.jpg" alt="" />
+            <div className="bp-text-container">
             <h2 className="bp-text">Sustainability</h2>
+            </div>
           </div>
 
-          <div className="primaryText lineHeight">
+          <div className="primaryText  lineHeight">
             <h5>
               Our ambition is to have the most sustainable food supply chains in
               the world
@@ -47,7 +49,7 @@ function BusinessPractices() {
             </div>
             <p className="bp-line"></p>
           </div>
-          <div className="primaryText paddings">
+          <div className="primaryText  lineHeight">
             <h5>Our Priorities</h5>
             <div className="text secondaryTexBlue lineHeight">
               <br />
@@ -61,15 +63,26 @@ function BusinessPractices() {
                 remain resilient.
               </p>
               <br />
-              <div className="flexCenter galleryImg">
-                <img className="border-radius gallerDiv" src="heroImage1.jpg" alt="" />
-     
-                <img className="border-radius gallerDiv" src="heroImage2.jpg" alt="" />
-          
-                <img className="border-radius gallerDiv" src="heroImage3.jpg" alt="" />
-              
             </div>
-          </div>
+            <div className="flexCenter galleryImg">
+              <img
+                className="border-radius gallerDiv"
+                src="heroImage1.jpg"
+                alt=""
+              />
+
+              <img
+                className="border-radius gallerDiv"
+                src="heroImage2.jpg"
+                alt=""
+              />
+
+              <img
+                className="border-radius gallerDiv"
+                src="heroImage3.jpg"
+                alt=""
+              />
+            </div>
           </div>
         </motion.div>
       </div>

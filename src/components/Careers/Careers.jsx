@@ -17,7 +17,9 @@ function Careers() {
         >
           <div className="c-image-container">
             <img src="./heroImage3.jpg" alt="" />
+            <div className="c-text-container">
             <h2 className="c-text">Careers</h2>
+            </div>
           </div>
 
           <div className="primaryText lineHeight">
