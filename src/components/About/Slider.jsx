@@ -68,8 +68,6 @@ const App = () => {
           showThumbs={false}
           selectedItem={currentSlide}
           onChange={handleSlideChange}
-          // swipeable={true} // Enable swipe support
-
         >
           {data.map((card, index) => (
             <div key={index} className="slider-div flexCenter">
