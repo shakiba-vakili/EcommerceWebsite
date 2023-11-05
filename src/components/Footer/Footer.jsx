@@ -3,7 +3,14 @@ import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-
+import {
+  FaUser,
+  FaBriefcase,
+  FaCogs,
+  FaLeaf,
+  FaHome,
+  FaEnvelope,
+} from "react-icons/fa"; // Import the icons
 function Footer() {
   return (
     <footer>
@@ -29,20 +36,24 @@ function Footer() {
           </div>
           <div className="flexColEnd f-right">
             <div className="flexColEnd f-menu">
+            <Link to="/" className="navbar-link">
+              <FaHome /> Home
+            </Link>
               <Link to="/about" className="navbar-link">
-                Who we are?
+                <FaUser /> Who we are?
               </Link>
               <Link to="/product" className="navbar-link">
-                Product & Services
+                <FaCogs /> Product & Services
               </Link>
               <a href="mailto:shakibvakili@gmail.com" className="navbar-link">
-                Contact
+                <FaEnvelope /> Contact
               </a>
               <Link to="/careers" className="navbar-link">
-                Careers
+                <FaBriefcase /> Careers
               </Link>
               <Link to="/businessPractices" className="navbar-link">
-                Business Practices
+                <FaLeaf />
+                Business Practices{" "}
               </Link>
             </div>
           </div>
