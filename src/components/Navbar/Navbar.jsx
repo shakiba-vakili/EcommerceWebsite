@@ -55,7 +55,7 @@ function Navbar() {
           </div>
         </OutsideClickHandler>
         <div className="menu-icon" onClick={() => setMenuOpen((prev) => !prev)}>
-          <BiMenuAltRight size={30} />
+          <BiMenuAltRight size={40} />
         </div>
       </div>
     </nav>

@@ -37,7 +37,7 @@
     background-size: cover;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
   .image-container img{
     height: 280px;
     width:350px;

@@ -5,7 +5,7 @@
 
 .n-container {
   justify-content: space-between;
-  padding: 1rem 0;
+  padding: 1rem;
   color: var(--text-color);
 }
 
@@ -44,9 +44,6 @@
 }
 
 @media (max-width: 1025px) {
-  .n-wrapper {
-    margin: 0 0.8rem;
-  }
   .logoImg {
     width: 50%;
     margin: 0 0.5rem;
@@ -97,6 +94,8 @@
   }
   .n-menu {
     padding: 3rem 0.5rem;
-
+  }
+  .n-container {
+    padding: 1rem 0 0 0;
   }
 }

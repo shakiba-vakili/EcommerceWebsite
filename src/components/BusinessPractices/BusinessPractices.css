@@ -50,7 +50,7 @@
   -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   border-radius: 4px;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
   .bp-image-container img {
     width: 950px;
     height: 500px;

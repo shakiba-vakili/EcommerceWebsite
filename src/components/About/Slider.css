@@ -5,7 +5,7 @@
   justify-content: space-between;
 }
 .carousel {
-  height: 400px;
+  height: 500px;
 }
 .carousel .control-dots .dot {
   background: var(--main-color-3);
@@ -19,6 +19,7 @@
 .slider-left {
   gap: 1rem;
   width: 50%;
+  height: auto;
 }
 
 .slider-left img {
@@ -34,6 +35,8 @@
   gap: 1rem;
   width: 50%;
   padding-left: 2rem;
+  height: auto;
+padding-bottom: 1rem;
 }
 
 .slider-right > * {
@@ -52,12 +55,10 @@
   font-size: 1rem;
 }
 
-@media (max-width: 1024px) {
-  .carousel {
-    height: 500px;
-  }
+@media (max-width: 1025px) {
+
   .slider-left {
-    padding: 0;
+    height: auto;
   }
   .slider-left img {
     width: 80%;
@@ -67,6 +68,7 @@
   .slider-right {
     height: 400px;
     width: 50%;
+    height: auto;
   }
 }
 @media (max-width: 786px) {
