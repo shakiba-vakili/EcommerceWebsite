@@ -67,8 +67,8 @@ function Home() {
               >
                 <h2 className="primaryText">{card.title}</h2>
                 <h5 className="orangeText">{card.headLine}</h5>
-                <p className="textWrap secondaryTexBlue">{card.description}</p>
-                <p className="textWrap secondaryTexBlue">{card.description}</p>
+                <p className="textWrap secondaryTexBlue lineHeight">{card.description}</p>
+                <p className="textWrap secondaryTexBlue lineHeight">{card.description}</p>
               </div>
             </div>
           ))}

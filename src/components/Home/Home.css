@@ -51,6 +51,7 @@
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  padding: 1rem 0;
 }
 .aboutHome-container > div {
   flex: 1;
@@ -75,11 +76,11 @@
 /* product in home page */
 /* //////////////////////////////////// */
 .home-galleryImg {
-  gap: 0.5rem;
+  gap: 1rem;
 }
 .home-galleryImg .home-gallerDiv {
   width: 23%;
-  height: 400px;
+  height: auto;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
@@ -110,7 +111,12 @@
   border-radius: 4px 4px 0 0;
 }
 @media (max-width: 1024px) {
-
+  .aboutHome-container {
+    padding: 1rem 0;
+  }
+  .flexColEnd.rightAbout {
+    align-items: start;
+  }
   .hero-image {
     width: 950px;
     height: 500px;
@@ -142,18 +148,26 @@
     margin: 1rem;
     width: 50%;
   }
-  .flexCenter.galleryImg{
-    gap: 3rem ;
+  .flexCenter.galleryImg {
+    gap: 3rem;
   }
   .flexCenter.galleryImg .gallerDiv {
     width: 35%;
   }
-  .flexCenter.galleryImg .gallerDiv .button.galleryBtn{
-    padding: 0.7rem 2rem;}
+  .flexCenter.galleryImg .gallerDiv .button.galleryBtn {
+    padding: 0.7rem 2rem;
+  }
 
   @media (max-width: 786px) {
     body {
       overflow-x: hidden;
+    }
+    .home-galleryImg .home-gallerDiv {
+      width: 45%;
+      height: 500px;
+    }
+    .home-galleryImg {
+      gap: 1.5rem 2.5rem;
     }
     .hero-image {
       width: 650px;
@@ -210,9 +224,17 @@
       height: 400px;
     }
     @media (max-width: 450px) {
+      .aboutHome-container.flexCenter.mt-8,
+      .productHome-container.flexCenter.mt-8 {
+        margin-top: 3rem;
+      }
+      .home-galleryImg .home-gallerDiv {
+        width: 80%;
+        height: 450px;
+      }
       .hero-image {
         width: 320px;
-        height: 300px;
+        height: 350px;
       }
       .hero-text h2 {
         font-size: 2rem;
@@ -252,12 +274,12 @@
       }
 
       .flexCenter.galleryImg .gallerDiv {
-        width:90%;
+        width: 90%;
         height: 450px;
       }
-      .flexCenter.galleryImg .gallerDiv .button.galleryBtn{
+      .flexCenter.galleryImg .gallerDiv .button.galleryBtn {
         padding: 0.7rem 5rem;
-        margin: 2rem auto; 
+        margin: 2rem auto;
         display: flex;
         align-items: center;
       }

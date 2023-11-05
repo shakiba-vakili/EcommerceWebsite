@@ -20,7 +20,7 @@ function Footer() {
                 alt="logo"
               />{" "}
             </Link>
-            <span className="secondaryTextGray">
+            <span className="secondaryTextGray ">
               Lorem ipsum dolor sit amet.
               <br />
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.

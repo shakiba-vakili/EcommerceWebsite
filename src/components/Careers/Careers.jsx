@@ -25,7 +25,7 @@ function Careers() {
               Our ambition is to have the most sustainable food supply chains in
               the world
             </h5>
-            <div className="text secondaryTexBlue ">
+            <div className="text secondaryTexBlue lineHeight">
               <br />
 
               <p>

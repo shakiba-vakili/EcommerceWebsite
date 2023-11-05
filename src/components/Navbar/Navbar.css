@@ -1,7 +1,6 @@
 .n-wrapper {
   color: white;
   z-index: 100;
-
 }
 
 .n-container {
@@ -14,24 +13,24 @@
   gap: 1.5rem;
 }
 .n-menu > * {
-font-size: 10px;
+  font-size: 10px;
 }
 .n-menu .button {
-font-size: 10px;
+  font-size: 10px;
 }
-.n-menu >*:not(:last-child){
+.n-menu > *:not(:last-child) {
   background: transparent;
   border: none;
   border-radius: 4px;
   transition: all 200ms ease-in;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 .n-menu > *:not(:last-child):hover {
   cursor: pointer;
   transform: scale(1);
-    color: white;
-    background:var(--main-color-1);
+  color: white;
+  background: var(--main-color-1);
 }
 
 .logoImg {
@@ -44,7 +43,7 @@ font-size: 10px;
   display: none;
 }
 
-@media (max-width: 1441px) {
+@media (max-width: 1025px) {
   .n-wrapper {
     margin: 0 0.8rem;
   }
@@ -70,31 +69,34 @@ font-size: 10px;
       flex-direction: column;
       font-weight: 500;
       gap: 1rem;
-      padding: 2rem .5rem;
+      padding: 2rem 0.5rem;
       border-radius: 10px;
       align-items: center;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
       transition: all 300ms ease-in;
     }
     .n-menu > *:not(:last-child) {
-
-  font-weight: 600;
-  padding: 0.6rem 1.4rem;
-  background: transparent;
-  border: none;
-  border-radius: 4px;
-}
-.n-menu > *:not(:last-child):hover {
-  cursor: pointer;
-  transform: scale(1);
-  color: var(--main-color-1);
-  background: white;
- 
-}
-    
+      font-weight: 600;
+      padding: 0.6rem 1.4rem;
+      background: transparent;
+      border: none;
+      border-radius: 4px;
+    }
+    .n-menu > *:not(:last-child):hover {
+      cursor: pointer;
+      transform: scale(1);
+      color: var(--main-color-1);
+      background: white;
+    }
     @media (max-width: 450px) {
-      .logoImg {
+      .n-container.logoImg {
         display: none;
+        background-color: #555;
+      }
+      .logoImg2{
+        display: block;
+        background-color: #ce2020;
+
       }
     }
   }

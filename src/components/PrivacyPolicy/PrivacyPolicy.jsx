@@ -15,7 +15,7 @@ function PrivacyPolicy() {
           className="pp-container paddings innerWidth flexColCenter"
         >
           <h5 className="primaryTextOrange h5Headers flexEnd">Privacy Policy</h5>
-          <div className="flexColEnd pp-text secondaryTextGray">
+          <div className="flexColEnd pp-text secondaryTextGra lineHeighty">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Dignissimos aliquid rem fuga placeat sequi, fugiat dolor illo!

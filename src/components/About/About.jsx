@@ -24,7 +24,7 @@ function About() {
               <span className="primaryTextWhite ">Who we are?</span>
             </div>
             <div className="flexColEnd a-right innerWidth">
-              <p className="textWrap flexColEnd secondaryText">
+              <p className="textWrap flexColEnd secondaryText lineHeight">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
                 neque, dolorem doloribus exercitationem tempora saepe quos. Est
                 laudantium vel doloribus maxime, placeat consequatur quae non!
@@ -32,12 +32,12 @@ function About() {
                 neque, dolorem doloribus exercitationem tempora saepe quos. Est
                 laudantium vel doloribus maxime, placeat consequatur quae non!
               </p>
-              <p className="textWrap flexColEnd secondaryText">
+              <p className="textWrap flexColEnd secondaryText lineHeight">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
                 neque, dolorem doloribus exercitationem tempora saepe quos. Est
                 laudantium vel doloribus maxime, placeat consequatur quae non!
               </p>
-              <p className="textWrap flexColEnd secondaryText">
+              <p className="textWrap flexColEnd secondaryText lineHeight">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
                 neque, dolorem doloribus exercitationem tempora saepe quos. Est
                 laudantium vel doloribus maxime, placeat consequatur quae non!
@@ -57,7 +57,7 @@ function About() {
               </span>
             </div>
             <div className="flexColStart a-right innerWidth">
-              <p className="textWrap flexColEnd secondaryText">
+              <p className="textWrap flexColEnd secondaryText lineHeight">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
                 neque, dolorem doloribus exercitationem tempora saepe quos. Est
                 laudantium vel doloribus maxime, placeat consequatur quae non!
@@ -65,12 +65,12 @@ function About() {
                 neque, dolorem doloribus exercitationem tempora saepe quos. Est
                 laudantium vel doloribus maxime, placeat consequatur quae non!
               </p>
-              <p className="textWrap flexColEnd secondaryText">
+              <p className="textWrap flexColEnd secondaryText lineHeight">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
                 neque, dolorem doloribus exercitationem tempora saepe quos. Est
                 laudantium vel doloribus maxime, placeat consequatur quae non!
               </p>
-              <p className="textWrap flexColEnd secondaryText">
+              <p className="textWrap flexColEnd secondaryText lineHeight">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
                 neque, dolorem doloribus exercitationem tempora saepe quos. Est
                 laudantium vel doloribus maxime, placeat consequatur quae non!

@@ -14,7 +14,7 @@ function TermsOfService() {
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 2, type: "spring" }} className="tos-container paddings innerWidth flexColCenter">
           <h5 className="primaryTextOrange h5Headers flexEnd">Terms Of Service</h5>
-          <div className="flexColEnd tos-text secondaryTextGray">
+          <div className="flexColEnd tos-text secondaryTextGray lineHeight">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Dignissimos aliquid rem fuga placeat sequi, fugiat dolor illo!

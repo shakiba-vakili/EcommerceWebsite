@@ -1,5 +1,5 @@
-.f-wrapper{
-    margin-top: 4rem;
+.f-wrapper {
+  margin-top: 4rem;
 }
 .f-container {
   justify-content: space-between;
@@ -19,9 +19,9 @@
   font-size: 9px;
 }
 .footerImg {
-  width: 50%;
+  width: 60%;
   background-position: center center;
-    background-size: cover;
+  background-size: cover;
 }
 
 .f-menu {
@@ -31,7 +31,7 @@
   align-items: flex-end;
 }
 .f-menu > * {
-    font-size: 10px;
+  font-size: 10px;
   padding: 0.4rem;
   background: transparent;
   border: none;
@@ -44,39 +44,46 @@
   color: white;
   background: var(--main-color-1);
 }
-
-@media (max-width: 768px) {
-  .f-container {
-    justify-content: space-between;
-  }
-  .f-container > div {
-    width: 50%;
-  }
-  .f-menu {
-    font-size: 13px;
-  }
-
-  @media (max-width: 450px) {
-
-    .footerImg {
-      width: 25%;
+.f-menu .navbar-link {
+  font-size: 13px;
+  font-weight: 700;
+}
+.f-left .secondaryTextGray {
+  font-size: 14px;
+}
+ 
+  @media (max-width: 768px) {
+    .f-container {
+      justify-content: space-between;
     }
-    .flexCenter.f-container {
-      flex-direction: column;
-    }
-    .flexCenter.f-container .f-left,
-    .flexCenter.f-container .f-rigth {
-      align-items: center;
-      margin: 0 auto;
-      text-align: center;
-      justify-content: center;
-      width: 90%;
+    .f-container > div {
+      width: 50%;
     }
     .f-menu {
-      justify-content: center;
-      align-items:center;
-      margin: 0 auto;
+      font-size: 13px;
+    }
 
+    @media (max-width: 450px) {
+      .footerImg {
+        width: 70%;
+      }
+      .flexCenter.f-container {
+        flex-direction: column-reverse;
+      }
+      .flexCenter.f-container .f-left,
+      .flexCenter.f-container .f-rigth {
+        align-items: center;
+        margin: 0 auto;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+      }
+
+      .f-menu {
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+      }
     }
   }
-}
+
