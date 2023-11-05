@@ -10,7 +10,7 @@
 }
 
 .n-menu {
-  gap: 1.5rem;
+  gap: 1rem;
 }
 .n-menu > * {
   font-size: 10px;
@@ -43,13 +43,13 @@
   display: none;
 }
 
-@media (max-width: 1025px) {
+@media (min-width: 1001px) {
   .logoImg {
     width: 50%;
     margin: 0 0.5rem;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .n-wrapper {
     margin: 0 0.2rem;
   }

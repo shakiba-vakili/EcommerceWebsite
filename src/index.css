@@ -38,6 +38,11 @@ code {
 }
 .navbar-link{
   font-family: "Poppins", sans-serif;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 0.2rem;
 }
 a {
   color: inherit;
@@ -193,6 +198,9 @@ a {
 @media (min-width: 640px) {
   .paddings {
     padding: 4rem;
+  }
+  .navbar-link{
+    gap: 0.4rem;
   }
 }
 

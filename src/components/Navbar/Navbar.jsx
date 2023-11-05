@@ -5,6 +5,14 @@ import { BiMenuAltRight } from "react-icons/bi";
 import OutsideClickHandler from "react-outside-click-handler";
 import "./Navbar.css";
 import { motion } from "framer-motion";
+import {
+  FaUser,
+  FaBriefcase,
+  FaCogs,
+  FaLeaf,
+  FaHome,
+  FaEnvelope,
+} from "react-icons/fa"; // Import the icons
 
 function Navbar() {
   const [menuOpened, setMenuOpen] = useState(false);
@@ -16,8 +24,8 @@ function Navbar() {
   return (
     <nav className="n-wrapper">
       <div className="n-container paddings innerWidth flexCenter">
-        <Link to="/" className="navbar-link">
-        <motion.img
+        <Link to="/">
+          <motion.img
             initial={{ x: "5rem", opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 2, type: "spring" }}
@@ -34,23 +42,27 @@ function Navbar() {
         >
           <div className="flexCenter n-menu" style={getMenuStyles(menuOpened)}>
             <Link to="/businessPractices" className="navbar-link">
+              <FaLeaf />
               Business Practices
             </Link>
             <Link to="/careers" className="navbar-link">
-              Careers
+              <FaBriefcase /> Careers
             </Link>
             <Link to="/product" className="navbar-link">
-              Product & Services
+              <FaCogs /> Product & Services
             </Link>
             <Link to="/about" className="navbar-link">
-              Who we are?
+              <FaUser /> Who we are?
             </Link>
             <Link to="/" className="navbar-link">
-              Home
+              <FaHome /> Home
             </Link>
             <a href="mailto:shakibvakili@gmail.com">
               {" "}
-              <button className="button">Contact</button>
+              <button className="button">
+                {" "}
+                <FaEnvelope /> Contact
+              </button>
             </a>
           </div>
         </OutsideClickHandler>
