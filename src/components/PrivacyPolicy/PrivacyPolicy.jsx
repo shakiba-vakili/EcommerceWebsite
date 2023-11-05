@@ -19,46 +19,44 @@ function PrivacyPolicy() {
           </h5>
           <div className="flexColEnd pp-text secondaryTextGray lineHeight">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Dignissimos aliquid rem fuga placeat sequi, fugiat dolor illo!
-              Dolores odio perspiciatis, ea et vero doloribus, quae aperiam
-              similique vitae iusto excepturi exercitationem commodi recusandae
-              quaerat assumenda repellat fugit, labore nihil praesentium
-              asperiores natus atque a voluptate deleniti? Minus ea fuga
-              debitis.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Dignissimos aliquid rem fuga placeat sequi, fugiat dolor illo!
-              Dolores odio perspiciatis, ea et vero doloribus, quae aperiam
-              similique vitae iusto excepturi exercitationem commodi recusandae
-              quaerat assumenda repellat fugit, labore nihil praesentium
-              asperiores natus atque a voluptate deleniti? Minus ea fuga
-              debitis.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Dignissimos aliquid rem fuga placeat sequi, fugiat dolor illo!
-              Dolores odio perspiciatis, ea et vero doloribus, quae aperiam
-              similique vitae iusto excepturi exercitationem commodi recusandae
-              quaerat assumenda repellat fugit, labore nihil praesentium
-              asperiores natus atque a voluptate deleniti? Minus ea fuga
-              debitis. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Dignissimos aliquid rem fuga placeat sequi, fugiat dolor illo!
-              Dolores odio perspiciatis, ea et vero doloribus, quae aperiam
-              similique vitae iusto excepturi exercitationem commodi recusandae
-              quaerat assumenda repellat fugit, labore nihil praesentium
-              asperiores natus atque a voluptate deleniti? Minus ea fuga
-              debitis.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Dignissimos aliquid rem fuga placeat sequi, fugiat dolor illo!
-              Dolores odio perspiciatis, ea et vero doloribus, quae aperiam
-              similique vitae iusto excepturi exercitationem commodi recusandae
-              quaerat assumenda repellat fugit, labore nihil praesentium
-              asperiores natus atque a voluptate deleniti? Minus ea fuga
-              debitis.
+              Agora International Incorporated ("Agora," "we," "us," or "our")
+              values your privacy and is committed to protecting your personal
+              information. This Privacy Policy explains how we collect, use,
+              disclose, and safeguard your information. By accessing or using
+              our services, you consent to the practices described in this
+              Privacy Policy. Information We Collect: We may collect various
+              types of information, including but not limited to: Personal
+              Information: Name, contact details, job title, and other
+              identifiers. Financial Information: Payment details and
+              transaction history. Technical Information: IP address, browser
+              type, device information, and usage data. Communications: Records
+              of your interactions with us, including emails, chat, and
+              telephone conversations. How We Use Your Information: We may use
+              your information for the following purposes: To provide, maintain,
+              and improve our products and services. To process and fulfill your
+              orders and transactions. To communicate with you, respond to
+              inquiries, and provide customer support. To send updates,
+              newsletters, and promotional materials. To comply with legal
+              obligations and protect our rights. Sharing Your Information: We
+              may share your information with: Service Providers: Third-party
+              service providers who assist us in delivering our services.
+              Business Partners: Trusted partners and affiliates with whom we
+              collaborate. Legal Compliance: When required to comply with legal
+              obligations or protect our interests. Your Choices: You have
+              choices regarding your personal information, including: Access and
+              Correction: You may request access to, correction, or deletion of
+              your information. Marketing Communications: You can opt-out of
+              receiving marketing communications from us. Cookies: You can
+              manage your cookie preferences through your browser settings.
+              Security: We employ industry-standard security measures to protect
+              your information. However, no method of transmission or storage is
+              entirely secure, and we cannot guarantee absolute security.
+              Children's Privacy: Our services are not intended for individuals
+              under the age of 13. We do not knowingly collect information from
+              children. Changes to this Privacy Policy: We may update this
+              Privacy Policy from time to time to reflect changes in our
+              practices or for legal compliance. We will notify you of any
+              significant updates.
             </p>
           </div>
         </motion.div>

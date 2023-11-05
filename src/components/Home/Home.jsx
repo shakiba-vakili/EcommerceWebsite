@@ -55,8 +55,10 @@ function Home() {
                 {images[currentImageIndex].description}
               </h5>
               <p className="textWrap secondaryTextWhite lineHeight lineHeight">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-                corporis hic neque saepe, eos, aspernatur atque sint .
+                We specialize in trading a diverse range of products, including
+                commodities, industrial machine spare parts, food. Our
+                commitment to excellence and customer satisfaction drives us to
+                deliver top-quality products and services.
               </p>
               <div className="flexStart buttonSpace">
                 <Link to="/product" className="navbar-link-bc">
@@ -75,18 +77,18 @@ function Home() {
               <span className="orangeText">About Us</span>
               <span className="primaryTextWhite">Who we are?</span>
               <span className="secondaryText textWrap lineHeight">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos
-                non, rerum tempore nisi aspernatur minus? Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Neque provident, dignissimos
-                veniam officiis optio beatae natus nihil voluptatibus
-                perspiciatis tempora?
+                At Agora International Incorporated, we take pride in our
+                extensive network of partners and suppliers, enabling us to
+                provide you with the best solutions in the industry. With years
+                of experience, we have established a reputation for reliability,
+                integrity, and innovation.
               </span>
               <span className="secondaryText textWrap lineHeight">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos
-                non, rerum tempore nisi aspernatur minus? Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Neque provident, dignissimos
-                veniam officiis optio beatae natus nihil voluptatibus
-                perspiciatis tempora?
+                Explore our website to discover our product offerings, industry
+                insights, and the values that guide our business. Whether you're
+                a business looking for industrial components, a food industry
+                player, or someone interested in the world of commodities, we
+                have something for everyone.
               </span>
               <div className="flexStart buttonSpace">
                 <Link to="/about" className="navbar-link">
@@ -175,9 +177,7 @@ function Home() {
                   </button>
                 </Link>
               </div>
-              
             </div>
-          
           </div>
         </div>
       </div>

@@ -24,46 +24,20 @@ function Careers() {
 
           <div className="primaryText lineHeight">
             <h5>
-              Our ambition is to have the most sustainable food supply chains in
-              the world
+             ************************
             </h5>
             <div className="text secondaryTexBlue lineHeight">
               <br />
 
               <p>
-                From small family farms to global shipping lanes, Cargill works
-                every day to implement new sustainable practices to reduce our
-                impact on the planet and protect people.
+              At Agora International Incorporated, we are dedicated to creating an environment where you can thrive professionally, find fulfillment in your work, and be a part of a company that values both its employees and its mission. Your success is our success, and we are committed to supporting your journey within our organization.
               </p>
               <br />
               <p>
-                Through our long history, we have seen agriculture be part of
-                the solution to the world’s most urgent challenges. We know that
-                we must address climate change and conserve water and forests,
-                while meeting the rising demand for food. These are complex
-                challenges, but we have overcome many obstacles to keep our food
-                system resilient and we will continue. We feel a deep
-                responsibility to protect the planet and its people, to ensure a
-                cleaner, safer future for generations to come.
+              Working at Agora International Incorporated offers a myriad of advantages. We provide competitive compensation, opportunities for professional development, and a nurturing work atmosphere. Our diverse and inclusive team encourages innovation and creativity, fostering an environment where every employee's contributions are recognized. We prioritize the well-being of our employees with comprehensive health and wellness benefits, while also promoting a healthy work-life balance. 
               </p>
               <br />
-
-              <p>
-                From small family farms to global shipping lanes, Cargill works
-                every day to implement new sustainable practices to reduce our
-                impact on the planet and protect people.
-              </p>
-              <br />
-              <p>
-                Through our long history, we have seen agriculture be part of
-                the solution to the world’s most urgent challenges. We know that
-                we must address climate change and conserve water and forests,
-                while meeting the rising demand for food. These are complex
-                challenges, but we have overcome many obstacles to keep our food
-                system resilient and we will continue. We feel a deep
-                responsibility to protect the planet and its people, to ensure a
-                cleaner, safer future for generations to come.
-              </p>
+              <p>Joining Agora International connects you with a company deeply committed to social responsibility and core values like integrity and excellence. You'll have the chance to network with global partners, engage in challenging work, and benefit from a system that recognizes and rewards outstanding performance. Employee feedback is valued, and your voice matters in shaping our future. Additionally, our community engagement programs allow you to make a positive impact on society. At Agora International, we are not just an employer; we are a supportive, innovative, and values-driven community dedicated to your professional growth and success.</p>
             </div>
           </div>
         </motion.div>
