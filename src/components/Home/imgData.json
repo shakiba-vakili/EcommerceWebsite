@@ -1,18 +1,12 @@
 [
     {
-      "src": "heroImage1.jpg",
-      "title": "Image 1",
-      "description": "This is the first image description."
+      "src": "heroImage1.jpg"
     },
     {
-      "src": "heroImage2.jpg",
-      "title": "Welcome to Agora International Incorporated",
-      "description": "Your trusted partner in the world of international trade."
+      "src": "heroImage2.jpg"
     },
     {
-      "src": "heroImage3.jpg",
-      "title": "Image 3",
-      "description": "This is the third image description."
+      "src": "heroImage3.jpg"
     }
   ]
   

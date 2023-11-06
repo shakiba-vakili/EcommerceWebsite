@@ -48,13 +48,15 @@ function Home() {
               alt={images[currentImageIndex].title}
             />
             <div className="hero-text flexColStart">
-              <h2 className="primaryTextOrange">
-                {images[currentImageIndex].title}
-              </h2>
-              <h5 className="secondaryTextWhite">
-                {images[currentImageIndex].description}
+              <h4 className="primaryTextOrange">
+                {/* {images[currentImageIndex].title} */}
+                Welcome to Agora International Incorporated
+              </h4>
+              <h5 className="secondaryTextWhite lineHeight">
+                {/* {images[currentImageIndex].description} */}
+                Your trusted partner in the world of international trade.
               </h5>
-              <p className="textWrap secondaryTextWhite lineHeight lineHeight">
+              <p className="textWrap secondaryTextWhite lineHeight ">
                 We specialize in trading a diverse range of products, including
                 commodities, industrial machine spare parts, food. Our
                 commitment to excellence and customer satisfaction drives us to
