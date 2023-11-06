@@ -33,7 +33,7 @@
 }
 .hero-text p {
   font-size: 0.8rem;
-  letter-spacing: .5px;
+  letter-spacing: .8px;
 }
 .flexStart.buttonSpace {
   margin-top: 1rem;
@@ -47,6 +47,7 @@
 .aboutHome-container {
   width: 1200px;
   height: 450px;
+  letter-spacing: .8px;
   justify-content: space-between;
   backdrop-filter: blur(10px);
   background-color: #124170;
@@ -183,6 +184,7 @@
     }
     .aboutHome-container {
       height: auto;
+      letter-spacing: normal;
     }
     .hero-text h4 {
       font-size: 1.5rem;
