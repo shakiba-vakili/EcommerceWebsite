@@ -22,21 +22,22 @@ function About() {
             className="flexCenter paddings innerWidth first"
           >
             <div className="flexColCenter a-left innerWidth">
-              <span className="orangeText ">Why trust us?</span>
+              <span className="orangeText ">Why Trust Us?</span>
             </div>
-            <div className="flexColEnd a-right innerWidth">
-              <div className="textWrap flexEnd secondaryTextWhite"> Why should you trust Agora International Incorporated?</div>
-              <p className="textWrap flexColEnd secondaryText lineHeight">
-                Trust is
-                the cornerstone of our business, built on years of reliability
-                and integrity. Our commitment to delivering high-quality
-                products and services is unwavering. We stand by our word and
-                ensure every transaction is transparent, fair, and conducted
-                with the utmost professionalism. Our track record of successful
-                partnerships and satisfied customers speaks volumes about the
-                trustworthiness of our brand. Choose Agora International
-                Incorporated, and you choose a trusted partner dedicated to your
-                success.
+            <div className="flexColStart a-right innerWidth">
+              <h3 className="textWrap flexStart secondaryTextWhite lineHeight">
+                Why should you trust Agora International Incorporated?
+              </h3>
+              <p className="textWrap flexStart secondaryText lineHeight">
+                Trust is the cornerstone of our business, built on years of
+                reliability and integrity. Our commitment to delivering
+                high-quality products and services is unwavering. We stand by
+                our word and ensure every transaction is transparent, fair, and
+                conducted with the utmost professionalism. Our track record of
+                successful partnerships and satisfied customers speaks volumes
+                about the trustworthiness of our brand. Choose Agora
+                International Incorporated, and you choose a trusted partner
+                dedicated to your success.
               </p>
             </div>
           </motion.div>
@@ -63,7 +64,7 @@ function About() {
               </p>
             </div>
             <div className=" flexColCenter a-left innerWidth">
-              <span className="orangeText ">Customer Satisfaction</span>
+              <span className="orangeText">Customer Satisfaction</span>
             </div>
           </motion.div>
           <Slider />

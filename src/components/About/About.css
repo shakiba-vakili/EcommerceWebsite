@@ -17,6 +17,7 @@
   -moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
   padding: 2rem 1rem;
   padding-bottom: 4rem;
+  letter-spacing: 0.6px;
 }
 
 .first .a-left {
@@ -35,7 +36,9 @@
   gap: 1rem;
   width: 30%;
 }
-
+.a-right h3.secondaryTextWhite {
+  justify-content: start;
+}
 .a-right p {
   font-size: 15px;
   margin-top: 1rem;
@@ -59,7 +62,6 @@
     padding: 0 2rem;
     text-align: start;
   }
-
   .first .a-left {
     padding-left: 0;
   }
