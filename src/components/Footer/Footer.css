@@ -84,6 +84,9 @@
         align-items: center;
         margin: 0 auto;
       }
+      .f-end .navbar-link{
+        font-size: 12px;
+      }
     }
   }
 

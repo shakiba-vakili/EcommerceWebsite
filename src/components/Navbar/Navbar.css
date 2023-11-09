@@ -102,4 +102,7 @@
   .n-container {
     padding: 1rem 0 0 0;
   }
+  .n-menu .button {
+    font-size: 16px;
+  }
 }
