@@ -27,7 +27,7 @@ function Home() {
   }, [currentImageIndex, images]);
 
   useEffect(() => {
-    const interval = setInterval(changeImage, 5000);
+    const interval = setInterval(changeImage,3000);
     return () => clearInterval(interval);
   }, [changeImage]);
 

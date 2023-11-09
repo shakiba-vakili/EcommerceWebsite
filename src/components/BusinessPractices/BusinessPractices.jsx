@@ -16,7 +16,7 @@ function BusinessPractices() {
           className="bp-container paddings innerWidth flexColCenter"
         >
           <div className="bp-image-container">
-            <img src="./heroImage2.jpg" alt="" />
+            <img src="./sustainability.jpg" alt="" />
             <div className="bp-text-container">
             <h2 className="bp-text">Sustainability</h2>
             </div>

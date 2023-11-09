@@ -3,7 +3,7 @@
   position: relative;
 }
 .hero-image {
-  width: 1200px;
+  width: 1000px;
   height: 550px;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
