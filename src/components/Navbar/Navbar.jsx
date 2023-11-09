@@ -57,7 +57,7 @@ function Navbar() {
             <Link to="/" className="navbar-link">
               <FaHome /> Home
             </Link>
-            <a href="mailto:shakibvakili@gmail.com">
+            <a href="mailto:info@internationalagora.com">
               {" "}
               <button className="button">
                 {" "}

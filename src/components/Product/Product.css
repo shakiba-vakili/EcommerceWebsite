@@ -36,7 +36,9 @@
     background-position: center center;
     background-size: cover;
 }
-
+.p-wrapper .primaryText{
+  color: var(--main-color-3);
+}
 @media (max-width: 1025px) {
   .image-container img{
     height: 280px;

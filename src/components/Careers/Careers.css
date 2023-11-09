@@ -31,8 +31,9 @@
   background-color: #12417056;
   border-radius: 5px;
 }
-.text.secondaryTexBlue {
+.primaryText .text.secondaryTexBlue {
   font-size: 1.1rem;
+  font-weight: 500;
 }
 @media (max-width: 1025px) {
   .c-image-container img {

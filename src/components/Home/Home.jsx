@@ -66,7 +66,7 @@ function Home() {
                 <Link to="/product" className="navbar-link-bc">
                   <button className="buttonWhite">Product</button>
                 </Link>
-                <a href="mailto:shakibvakili@gmail.com">
+                <a href="mailto:info@internationalagora.com">
                   {" "}
                   <button className="button">Contact</button>
                 </a>
@@ -96,7 +96,7 @@ function Home() {
                 <Link to="/about" className="navbar-link">
                   <button className="button">Who we are?</button>
                 </Link>
-                <a href="mailto:shakibvakili@gmail.com">
+                <a href="mailto:info@internationalagora.com">
                   {" "}
                   <button className="buttonWhite">Contact</button>
                 </a>
@@ -116,12 +116,12 @@ function Home() {
               <div className="home-gallerDiv">
                 <img className="border-radius" src="heroImage1.jpg" alt="" />
                 <div className="textDiv">
-                  <span className="primaryTextWhite">service title</span>
-                  <p className="textWrap secondaryText lineHeight">
+                  <span className="primaryTextWhite">Soft Commodities</span>
+                  {/* <p className="textWrap secondaryText lineHeight">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Quae molestiae eveniet recusandae, fuga consequuntur
                     quisquam.
-                  </p>
+                  </p> */}
                 </div>
                 <Link to="/product" className="navbar-link-bc">
                   <button className="button galleryBtn">
@@ -132,12 +132,12 @@ function Home() {
               <div className="home-gallerDiv">
                 <img className="border-radius" src="heroImage1.jpg" alt="" />
                 <div className="textDiv">
-                  <span className="primaryTextWhite">service title</span>
-                  <p className="textWrap secondaryText lineHeight">
+                  <span className="primaryTextWhite">Machinery</span>
+                  {/* <p className="textWrap secondaryText lineHeight">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Quae molestiae eveniet recusandae, fuga consequuntur
                     quisquam.
-                  </p>
+                  </p> */}
                 </div>
                 <Link to="/product" className="navbar-link-bc">
                   <button className="button galleryBtn">
@@ -146,14 +146,14 @@ function Home() {
                 </Link>
               </div>
               <div className="home-gallerDiv">
-                <img className="border-radius" src="heroImage1.jpg" alt="" />
+                <img className="border-radius" src="test14.jpg" alt="" />
                 <div className="textDiv">
-                  <span className="primaryTextWhite">service title</span>
-                  <p className="textWrap secondaryText lineHeight">
+                  <span className="primaryTextWhite">Construction Materials</span>
+                  {/* <p className="textWrap secondaryText lineHeight">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Quae molestiae eveniet recusandae, fuga consequuntur
                     quisquam.
-                  </p>
+                  </p> */}
                 </div>
                 <Link to="/product" className="navbar-link-bc">
                   <button className="button galleryBtn">
@@ -162,14 +162,14 @@ function Home() {
                 </Link>
               </div>
               <div className="home-gallerDiv">
-                <img className="border-radius" src="heroImage1.jpg" alt="" />
+                <img className="border-radius" src="test13.jpg" alt="" />
                 <div className="textDiv">
-                  <span className="primaryTextWhite">service title</span>
-                  <p className="textWrap secondaryText lineHeight">
+                  <span className="primaryTextWhite">Hard Commodities</span>
+                  {/* <p className="textWrap secondaryText lineHeight">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Quae molestiae eveniet recusandae, fuga consequuntur
                     quisquam.
-                  </p>
+                  </p> */}
                 </div>
                 <Link to="/product" className="navbar-link-bc">
                   <button className="button galleryBtn">

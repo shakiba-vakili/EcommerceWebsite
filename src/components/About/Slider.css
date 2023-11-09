@@ -54,7 +54,9 @@
   padding: 0.5rem 1rem;
   font-size: 1rem;
 }
-
+.slider-right .primaryText{
+  color: var(--main-color-3);
+}
 @media (max-width: 1025px) {
   .slider-left {
     height: auto;

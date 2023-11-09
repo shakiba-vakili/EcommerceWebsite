@@ -45,7 +45,7 @@ function Footer() {
               <Link to="/product" className="navbar-link">
                 <FaCogs /> Product & Services
               </Link>
-              <a href="mailto:shakibvakili@gmail.com" className="navbar-link">
+              <a href="mailto:info@internationalagora.com" className="navbar-link">
                 <FaEnvelope /> Contact
               </a>
               <Link to="/careers" className="navbar-link">

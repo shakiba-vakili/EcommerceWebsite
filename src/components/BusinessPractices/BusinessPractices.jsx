@@ -18,73 +18,85 @@ function BusinessPractices() {
           <div className="bp-image-container">
             <img src="./sustainability.jpg" alt="" />
             <div className="bp-text-container">
-            <h2 className="bp-text">Sustainability</h2>
+              <h2 className="bp-text">Sustainability</h2>
             </div>
           </div>
           <div className="bp-all-text">
+            <div className="primaryText lineHeight">
+              <h5>Sustainable Practices: Our Pledge to a Greener Future </h5>
+              <div className="text secondaryTexBlue lineHeight">
+                <br />
 
-          <div className="primaryText lineHeight">
-            <h5>
-              Our ambition is to have the most sustainable food supply chains in
-              the world
-            </h5>
-            <div className="text secondaryTexBlue lineHeight">
-              <br />
-
-              <p>
-                From small family farms to global shipping lanes, Cargill works
-                every day to implement new sustainable practices to reduce our
-                impact on the planet and protect people.
-              </p>
-              <br />
-              <p>
-                Through our long history, we have seen agriculture be part of
-                the solution to the world’s most urgent challenges. We know that
-                we must address climate change and conserve water and forests,
-                while meeting the rising demand for food. These are complex
-                challenges, but we have overcome many obstacles to keep our food
-                system resilient and we will continue. We feel a deep
-                responsibility to protect the planet and its people, to ensure a
-                cleaner, safer future for generations to come.
-              </p>
+                <p>
+                  At Agora International Incorporated, we are deeply committed
+                  to sustainability and environmental responsibility. We believe
+                  that as a global company, it's our duty to contribute to a
+                  better world by reducing our ecological footprint and
+                  promoting sustainable business practices. Our sustainability
+                  commitment is ingrained in everything we do, from the products
+                  we offer to the way we conduct our operations.
+                </p>
+                <br />
+                <p>
+                  We actively engage with the communities in which we operate.
+                  Our team believes that by participating in local initiatives
+                  and giving back to society, we can make a positive impact. We
+                  also support educational programs, charitable organizations,
+                  and other community initiatives that align with our values.
+                </p>
+              </div>
             </div>
-            <p className="bp-line"></p>
-          </div>
-          <div className="primaryText  lineHeight">
-            <h5>Our Priorities</h5>
-            <div className="text secondaryTexBlue lineHeight">
+            <div className="primaryText lineHeight">
+              <div className="flexCenter galleryImg">
+                <img
+                  className="border-radius gallerDiv"
+                  src="heroImage1.jpg"
+                  alt=""
+                />
+
+                <img
+                  className="border-radius gallerDiv"
+                  src="heroImage2.jpg"
+                  alt=""
+                />
+
+                <img
+                  className="border-radius gallerDiv"
+                  src="heroImage3.jpg"
+                  alt=""
+                />
+              </div>
+              <br />
               <br />
 
-              <p>
-                We’ve set priorities that account for the diverse environmental,
-                social and economic impacts of our business. Still, we realize
-                that no company can take on these challenges on its own. Through
-                connection and collaboration with farmers, our customers, and
-                global and local communities, we believe our food system will
-                remain resilient.
-              </p>
-              <br />
-            </div>
-            <div className="flexCenter galleryImg">
-              <img
-                className="border-radius gallerDiv"
-                src="heroImage1.jpg"
-                alt=""
-              />
+              <div className="text secondaryTexBlue lineHeight">
+                <p>
+                  <span>****************Environmental Practices:</span>
+                   We are dedicated to reducing our
+                  impact on the environment. This includes: Sourcing Sustainable
+                  Products: We prioritize products and materials with
+                  eco-friendly certifications, ensuring that they meet the
+                  highest environmental standards. Energy Efficiency: Our
+                  facilities are designed to minimize energy consumption and
+                  reduce greenhouse gas emissions. Waste Reduction: We actively
+                  work to minimize waste generation and promote recycling and
+                  responsible disposal.
+                </p>
+                <br />
+                <p>
+                <span>****************Product Responsibility:</span>
 
-              <img
-                className="border-radius gallerDiv"
-                src="heroImage2.jpg"
-                alt=""
-              />
-
-              <img
-                className="border-radius gallerDiv"
-                src="heroImage3.jpg"
-                alt=""
-              />
+                   We are mindful of the environmental
+                  impact of the products we offer. Our commitment to product
+                  responsibility includes: Offering Sustainable Choices: We
+                  strive to provide eco-friendly product options, helping our
+                  customers make environmentally responsible choices.
+                  Transparency: We share information about the environmental
+                  impact of our products and work with suppliers who prioritize
+                  sustainability.
+                </p>
+              </div>
             </div>
-          </div>
           </div>
         </motion.div>
       </div>

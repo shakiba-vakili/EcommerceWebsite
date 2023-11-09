@@ -53,6 +53,10 @@
   -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   border-radius: 4px;
 }
+.text.secondaryTexBlue span{
+  font-weight: 900;
+  margin-right: 0.5rem;
+}
 @media (max-width: 1025px) {
   .bp-image-container img {
     width: 950px;
