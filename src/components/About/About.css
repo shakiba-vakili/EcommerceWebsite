@@ -82,4 +82,10 @@
   .a-container .h5Headers {
     display: none;
   }
+  .a-left .orangeText{
+    font-size: 1.4rem;
+  }
+  .second .a-right, .first .a-right {
+    padding: 0 1rem;
+}
 }

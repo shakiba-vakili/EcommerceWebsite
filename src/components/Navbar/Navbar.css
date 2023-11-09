@@ -90,6 +90,9 @@
   }
 }
 @media (max-width: 450px) {
+  .n-container{
+    overflow-x: hidden !important;
+  }
   .n-container .logoImg {
     display: none !important;
   }

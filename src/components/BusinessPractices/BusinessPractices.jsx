@@ -21,8 +21,9 @@ function BusinessPractices() {
             <h2 className="bp-text">Sustainability</h2>
             </div>
           </div>
+          <div className="bp-all-text">
 
-          <div className="primaryText  lineHeight">
+          <div className="primaryText lineHeight">
             <h5>
               Our ambition is to have the most sustainable food supply chains in
               the world
@@ -83,6 +84,7 @@ function BusinessPractices() {
                 alt=""
               />
             </div>
+          </div>
           </div>
         </motion.div>
       </div>
