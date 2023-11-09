@@ -103,13 +103,11 @@ function Home() {
               </div>
             </div>
             <div className="flexColEnd rightAbout">
-              <div className="image-container">
-                <img src="./heroImage1.jpg" alt="" />
-              </div>
+                <img src="./heroImage1.jpg" alt="" className="image-container-home-about"/>
             </div>
           </div>
           {/* product */}
-          <div className="productHome-container flexCenter innerWidth mt-8">
+          <div className="productHome-container flexCenter mt-8">
             <div className="flexColCenter productText">
               <span className="orangeText">Our Product</span>
               <span className="primaryText">Which industry we are?</span>

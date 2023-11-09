@@ -27,7 +27,7 @@
   height: 350px;
   padding: 0 3rem 0 1rem;
   background-position: center center;
-    background-size: cover;
+  background-size: cover;
 }
 
 .slider-right {
@@ -36,7 +36,7 @@
   width: 50%;
   padding-left: 2rem;
   height: auto;
-padding-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
 .slider-right > * {
@@ -56,7 +56,6 @@ padding-bottom: 1rem;
 }
 
 @media (max-width: 1025px) {
-
   .slider-left {
     height: auto;
   }
@@ -93,9 +92,11 @@ padding-bottom: 1rem;
     width: 80%;
     padding: 0;
   }
-
 }
 @media (max-width: 450px) {
+  .carousel .carousel-status {
+    display: none;
+  }
   .slider-right,
   .slider-left {
     height: auto;
@@ -104,11 +105,17 @@ padding-bottom: 1rem;
     /* background-color: #e61919; */
   }
   .slider-buttons {
+    display: none;
+  }
+  .slider-right {
+    padding-bottom: 5rem;
+  }
+  /* .slider-buttons {
     gap: 1rem;
     margin-top: 1rem;
   }
 
   .slider-buttons button {
     padding: 0.5rem 0.8rem;
-  }
+  } */
 }
