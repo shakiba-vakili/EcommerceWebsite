@@ -27,7 +27,7 @@ function Home() {
   }, [currentImageIndex, images]);
 
   useEffect(() => {
-    const interval = setInterval(changeImage,3000);
+    const interval = setInterval(changeImage, 3000);
     return () => clearInterval(interval);
   }, [changeImage]);
 
@@ -103,81 +103,72 @@ function Home() {
               </div>
             </div>
             <div className="flexColEnd rightAbout">
-                <img src="./heroImage1.jpg" alt="" className="image-container-home-about"/>
+              <img
+                src="./heroImage1.jpg"
+                alt=""
+                className="image-container-home-about"
+              />
             </div>
           </div>
           {/* product */}
-          <div className="productHome-container flexCenter mt-8">
+          <div className="productHome-container flexColCenter mt-8">
             <div className="flexColCenter productText">
               <span className="orangeText">Our Product</span>
               <span className="primaryText">Which industry we are?</span>
             </div>
             <div className="flexCenter home-galleryImg">
-              <div className="home-gallerDiv">
-                <img className="border-radius" src="heroImage1.jpg" alt="" />
-                <div className="textDiv">
-                  <span className="primaryTextWhite">Soft Commodities</span>
-                  {/* <p className="textWrap secondaryText lineHeight">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quae molestiae eveniet recusandae, fuga consequuntur
-                    quisquam.
-                  </p> */}
+              <div class="card-container">
+                <div class="card">
+                  <div class="front-content">
+                  <img src="heroImage1.jpg" alt="" />
+                  </div>
+                  <div class="content">
+                    <p class="heading">Soft Commodities</p>
+                    
+                  </div>
                 </div>
-                <Link to="/product" className="navbar-link-bc">
-                  <button className="button galleryBtn">
-                    More Info &rarr;
-                  </button>
-                </Link>
               </div>
-              <div className="home-gallerDiv">
-                <img className="border-radius" src="heroImage1.jpg" alt="" />
-                <div className="textDiv">
-                  <span className="primaryTextWhite">Machinery</span>
-                  {/* <p className="textWrap secondaryText lineHeight">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quae molestiae eveniet recusandae, fuga consequuntur
-                    quisquam.
-                  </p> */}
+              <div class="card-container">
+                <div class="card">
+                  <div class="front-content">
+                  <img src="heroImage1.jpg" alt="" />
+                  </div>
+                  <div class="content">
+                    <p class="heading">Machinery</p>
+                    
+                  </div>
                 </div>
-                <Link to="/product" className="navbar-link-bc">
-                  <button className="button galleryBtn">
-                    More Info &rarr;
-                  </button>
-                </Link>
               </div>
-              <div className="home-gallerDiv">
-                <img className="border-radius" src="test14.jpg" alt="" />
-                <div className="textDiv">
-                  <span className="primaryTextWhite">Construction Materials</span>
-                  {/* <p className="textWrap secondaryText lineHeight">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quae molestiae eveniet recusandae, fuga consequuntur
-                    quisquam.
-                  </p> */}
+              <div class="card-container">
+                <div class="card">
+                  <div class="front-content">
+                  <img src="test14.jpg" alt="" />
+                  </div>
+                  <div class="content">
+                    <p class="heading">Construction Materials</p>
+                    
+                  </div>
                 </div>
-                <Link to="/product" className="navbar-link-bc">
-                  <button className="button galleryBtn">
-                    More Info &rarr;
-                  </button>
-                </Link>
               </div>
-              <div className="home-gallerDiv">
-                <img className="border-radius" src="test13.jpg" alt="" />
-                <div className="textDiv">
-                  <span className="primaryTextWhite">Hard Commodities</span>
-                  {/* <p className="textWrap secondaryText lineHeight">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quae molestiae eveniet recusandae, fuga consequuntur
-                    quisquam.
-                  </p> */}
+              <div class="card-container">
+                <div class="card">
+                  <div class="front-content">
+                  <img src="test13.jpg" alt="" />
+                  </div>
+                  <div class="content">
+                    <p class="heading">Hard Commodities</p>
+                    
+                  </div>
                 </div>
-                <Link to="/product" className="navbar-link-bc">
-                  <button className="button galleryBtn">
-                    More Info &rarr;
-                  </button>
-                </Link>
               </div>
+
+
             </div>
+                <Link to="/product" className="navbar-link-bc">
+                  <button className="button galleryBtn">
+                    More Info &rarr;
+                  </button>
+                </Link>
           </div>
         </div>
       </div>
