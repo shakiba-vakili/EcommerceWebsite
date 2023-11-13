@@ -17,10 +17,20 @@ import {
 function Navbar() {
   const [menuOpened, setMenuOpen] = useState(false);
   const getMenuStyles = (menuOpened) => {
-    if (document.documentElement.clientWidth <= 800) {
+    const clientWidth = document.documentElement.clientWidth;
+  
+    if (clientWidth <= 500) {
+      return {
+        right: !menuOpened ? "-100%" : "10%",
+        display: menuOpened ? "block" : "none",
+        pointerEvents: menuOpened ? "auto" : "none", 
+        transition: "right 0.3s ease-out, display 0.3s ease-out, pointerEvents 0.3s ease-out",
+      };
+    } else if (clientWidth <= 800) {
       return { right: !menuOpened && "-100%" };
     }
-  };
+    };
+  
   return (
     <nav className="n-wrapper">
       <div className="n-container paddings innerWidth flexCenter">

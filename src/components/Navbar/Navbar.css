@@ -100,7 +100,11 @@
     padding: 3rem 0.5rem;
     max-width: 100%;
     overflow-x: hidden;
+    transition: all 300ms ease-in;
   }
+  .flexCenter.n-menu {
+    text-align: center;
+}
   .n-container {
     padding: 1rem 0 0 0;
   }
