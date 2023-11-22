@@ -5,7 +5,7 @@ import "./Slider.css";
 
 const data = [
   {
-    src: "heroImage1.jpg",
+    src: "test26.jpg",
     title: "Soft Commodities",
     description:
     "At Agora International Incorporated, we're unwavering in our commitment to quality and trust in trading soft commodities. We recognize the vital role soft commodities play in the global supply chain, and we take great pride in our meticulous selection process, ensuring our soft commodities, such as grains, oilseeds, and coffee, meet the highest quality and ethical standards. Our rigorous quality control processes and adherence to industry best practices assure you that when you choose us as your trading partner, you're selecting excellence, integrity, and trust for your soft commodity needs."
@@ -13,7 +13,7 @@ const data = [
     ,
   },
   {
-    src: "heroImage2.jpg",
+    src: "test39.jpg",
     title: "Machinery",
     description:
     "Agora International Incorporated is your top choice in the world of food industry machinery. We're deeply committed to sourcing and trading high-quality equipment designed to meet the industry's demanding standards. From processing and packaging machinery to refrigeration solutions, we're dedicated to excellence and quality. Your trust in us is earned through the consistent delivery of top-tier machinery that powers your success."
@@ -21,7 +21,7 @@ const data = [
     ,
   },
   {
-    src: "heroImage3.jpg",
+    src: "test27.jpg",
     title: "Construction Material",
     description:
     "Agora International Incorporated is your reliable partner in construction materials. We understand that quality materials are the foundation of any successful project, and that's precisely what we provide. With a strong commitment to excellence, we trade a wide range of construction materials, from chalk to pitch and rebar. Our dedication to sourcing the highest-quality materials ensures your trust in us is well-placed. We meticulously scrutinize every product for quality, guaranteeing that when you choose Agora International, you're selecting materials that not only meet but often exceed industry standards. Trust in your construction materials is crucial, and we're here to offer you that peace of mind."
@@ -29,7 +29,7 @@ const data = [
     ,
   },
   {
-    src: "heroImage1.jpg",
+    src: "test32.png",
     title: "Hard Commodities",
     description:
     "Agora International Incorporated is your trusted source for high-quality hard commodities. We're committed to excellence, ensuring that the commodities we trade, from metals to energy resources, meet the highest standards. Our portfolio offers diverse hard commodities that not only meet but often surpass industry benchmarks. Your trust in us is well-placed."

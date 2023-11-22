@@ -50,19 +50,19 @@ function BusinessPractices() {
               <div className="flexCenter galleryImg">
                 <img
                   className="border-radius gallerDiv"
-                  src="heroImage1.jpg"
+                  src="test36.jpg"
                   alt=""
                 />
 
                 <img
                   className="border-radius gallerDiv"
-                  src="heroImage2.jpg"
+                  src="test34.jpg"
                   alt=""
                 />
 
                 <img
                   className="border-radius gallerDiv"
-                  src="heroImage3.jpg"
+                  src="test37.jpg"
                   alt=""
                 />
               </div>
@@ -70,30 +70,40 @@ function BusinessPractices() {
               <br />
 
               <div className="text secondaryTexBlue lineHeight">
-                <p>
-                  <span>****************Environmental Practices:</span>
-                   We are dedicated to reducing our
-                  impact on the environment. This includes: Sourcing Sustainable
-                  Products: We prioritize products and materials with
-                  eco-friendly certifications, ensuring that they meet the
-                  highest environmental standards. Energy Efficiency: Our
-                  facilities are designed to minimize energy consumption and
-                  reduce greenhouse gas emissions. Waste Reduction: We actively
-                  work to minimize waste generation and promote recycling and
-                  responsible disposal.
+                <span className="lineHeight">Environmental Practices:</span>
+                <p className="lineHeight">
+                  We are dedicated to reducing our impact on the environment.
+                  This includes:
+                  <li>
+                    Sourcing Sustainable Products: We prioritize products and
+                    materials with eco-friendly certifications, ensuring that
+                    they meet the highest environmental standards.
+                  </li>
+                  <li>
+                    Energy Efficiency: Our facilities are designed to minimize
+                    energy consumption and reduce greenhouse gas emissions.
+                  </li>
+                  <li>
+                    Waste Reduction: We actively work to minimize waste
+                    generation and promote recycling and responsible disposal.
+                  </li>
                 </p>
                 <br />
-                <p>
-                <span>****************Product Responsibility:</span>
-
-                   We are mindful of the environmental
-                  impact of the products we offer. Our commitment to product
-                  responsibility includes: Offering Sustainable Choices: We
-                  strive to provide eco-friendly product options, helping our
-                  customers make environmentally responsible choices.
-                  Transparency: We share information about the environmental
-                  impact of our products and work with suppliers who prioritize
-                  sustainability.
+                <span className="lineHeight">Product Responsibility:</span>
+                <p className="lineHeight">
+                  We are mindful of the environmental impact of the products we
+                  offer. Our commitment to product responsibility includes:
+                  <li>
+                    {" "}
+                    Offering Sustainable Choices: We strive to provide
+                    eco-friendly product options, helping our customers make
+                    environmentally responsible choices.{" "}
+                  </li>
+                  <li>
+                    Transparency: We share information about the environmental
+                    impact of our products and work with suppliers who
+                    prioritize sustainability.
+                  </li>
                 </p>
               </div>
             </div>

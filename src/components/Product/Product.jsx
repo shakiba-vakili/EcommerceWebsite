@@ -14,20 +14,20 @@ const data = [
       "We take immense pride in our meticulous selection of soft commodities, including agricultural products like Grains, Oilseeds, Coffee, Tobacco and more. Our global network of suppliers and partners is carefully vetted to ensure that the commodities we trade meet the highest quality standards. Rigorous quality control processes are a cornerstone of our operations, guaranteeing that the soft commodities we offer are not only of the finest quality but also ethically and sustainably sourced. Our commitment to transparency and adherence to industry best practices are reasons you can trust Agora International as your trading partner. We are dedicated to ensuring that your soft commodity needs are met with excellence, integrity, and a steadfast focus on quality and trust.",
   },
   {
-    src: "heroImage2.jpg",
+    src: "test38.jpg",
     title: "Machinery",
     description:
       "We understand that in the food sector, precision, reliability, and efficiency are non-negotiable factors. That's why we're deeply committed to sourcing and trading the highest quality food machinery, designed to meet the rigorous demands of the industry. At Agora International, our reputation is built on an unwavering dedication to quality and trust in every piece of machinery we offer.",
     description2: "Our portfolio boasts a diverse range of food industry machinery, from food processing and packaging equipment to quality control systems and refrigeration solutions. We're more than just traders; we're purveyors of excellence. Every machine we source undergoes meticulous quality checks to ensure it meets the stringent industry standards. When you choose Agora International for your food machinery needs, you're making a choice for quality, precision, and a commitment to excellence.",
   },
   {
-    src: "heroImage3.jpg",
+    src: "test28.jpg",
     title: "Construction Material",
     description:"Agora International Incorporated is your dependable partner in the realm of construction materials. We understand that quality construction materials are the bedrock of every successful project, and that's precisely what we offer. With a deep commitment to excellence, we trade a comprehensive range of construction materials, including Chalk, Pitch, Rebar, and more. Our dedication to sourcing only the highest-quality materials ensures that your trust in us is well-placed.",
     description2: "In the complex world of construction, trust is fundamental. Agora International has earned its reputation through an unrelenting commitment to quality and reliability. When you opt for us as your source for construction materials, you're not only choosing quality, but also trust. Trust in the excellence of our materials, trust in our impeccable service, and trust in our unwavering dedication to your project's success. Make Agora International your first choice for dependable, top-quality construction materials you can rely on.",
   },
   {
-    src: "heroImage1.jpg",
+    src: "test30.jpg",
     title: "Hard Commodities",
     description:
       "We understand the critical role that Hard Commodities play in various industries, and our commitment to excellence is central to every transaction we undertake. Whether it's Metals, Minerals, or Energy Resources, our rigorous selection process ensures that the commodities we trade meet the highest quality standards, assuring you that your trust in us is well-founded.",

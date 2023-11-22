@@ -28,24 +28,29 @@ function Footer() {
               />{" "}
             </Link>
             <span className="secondaryTextGray ">
-              Lorem ipsum dolor sit amet.
+              Address: Office No.1729, Tamani Arts Office,
               <br />
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Business Bay Dubai, United Arab Emirates
               <br />
+              Tel: +971-6-5307996 <br />
+              Email: info@internationalagora.com
             </span>
           </div>
           <div className="flexColEnd f-right">
             <div className="flexColEnd f-menu">
-            <Link to="/" className="navbar-link">
-              <FaHome /> Home
-            </Link>
+              <Link to="/" className="navbar-link">
+                <FaHome /> Home
+              </Link>
               <Link to="/about" className="navbar-link">
                 <FaUser /> Who we are?
               </Link>
               <Link to="/product" className="navbar-link">
                 <FaCogs /> Product & Services
               </Link>
-              <a href="mailto:info@internationalagora.com" className="navbar-link">
+              <a
+                href="mailto:info@internationalagora.com"
+                className="navbar-link"
+              >
                 <FaEnvelope /> Contact
               </a>
               <Link to="/careers" className="navbar-link">
