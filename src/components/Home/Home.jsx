@@ -57,8 +57,8 @@ function Home() {
                 Your trusted partner in the world of international trade.
               </h5>
               <p className="textWrap secondaryTextWhite lineHeight ">
-                We specialize in trading a diverse range of products, including
-                commodities, industrial machine spare parts, food. Our
+                We specialize in trading a diverse range of products, including:
+                Commodities, Industrial Machine Spare Parts, Construction Materials and Food Industry. Our
                 commitment to excellence and customer satisfaction drives us to
                 deliver top-quality products and services.
               </p>

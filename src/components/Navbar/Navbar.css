@@ -28,7 +28,7 @@
 }
 
 .n-menu a.navbar-link {
-  font-size: .7rem;
+  font-size: .9rem;
 }
 .n-menu > *:not(:last-child):hover {
   cursor: pointer;
@@ -47,6 +47,11 @@
   display: none;
 }
 
+@media (max-width: 1150px) {
+  .n-menu a.navbar-link {
+    font-size: .6rem;
+  }
+}
 @media (min-width: 1001px) {
   .logoImg {
     width: 50%;
