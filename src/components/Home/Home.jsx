@@ -77,7 +77,7 @@ function Home() {
           <div className="aboutHome-container flexCenter mt-8">
             <div className="flexColStart leftAbout">
               <span className="orangeText">About Us</span>
-              <span className="primaryTextWhite">Who we are?</span>
+              <span className="primaryTextWhite">Who are we</span>
               <span className="secondaryText textWrap lineHeight">
                 At Agora International Incorporated, we take pride in our
                 extensive network of partners and suppliers, enabling us to
@@ -104,7 +104,7 @@ function Home() {
             </div>
             <div className="flexColEnd rightAbout">
               <img
-                src="./heroImage1.jpg"
+                src="./test17.png"
                 alt=""
                 className="image-container-home-about"
               />
@@ -120,7 +120,7 @@ function Home() {
               <div class="card-container">
                 <div class="card">
                   <div class="front-content">
-                  <img src="heroImage1.jpg" alt="" />
+                  <img src="test25.jpeg" alt="" />
                   </div>
                   <div class="content">
                     <p class="heading">Soft Commodities</p>
@@ -131,7 +131,7 @@ function Home() {
               <div class="card-container">
                 <div class="card">
                   <div class="front-content">
-                  <img src="heroImage1.jpg" alt="" />
+                  <img src="test22.webp" alt="" />
                   </div>
                   <div class="content">
                     <p class="heading">Machinery</p>

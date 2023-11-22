@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const data = [
   {
-    src: "heroImage1.jpg",
+    src: "test23.jpg",
     title: "Soft Commodities",
     description:
       "Our dedication to trading soft commodities is a testament to our unwavering commitment to quality and trust. We understand that soft commodities play a vital role in the global supply chain, and the reliability and integrity of our trading practices are central to the success of our partners and clients.",
