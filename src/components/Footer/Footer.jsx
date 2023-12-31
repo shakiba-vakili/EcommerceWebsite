@@ -28,9 +28,9 @@ function Footer() {
               />{" "}
             </Link>
             <span className="secondaryTextGray ">
-              Address: Office No.1729, Tamani Arts Office,
+              Address: Office No.1741, Tamani Arts Building,
               <br />
-              Business Bay Dubai, United Arab Emirates
+              Business Bay, Dubai, United Arab Emirates
               <br />
               Tel: +971-6-5307996 <br />
               Email: info@internationalagora.com
