@@ -28,9 +28,9 @@ function Footer() {
               />{" "}
             </Link>
             <span className="secondaryTextGray ">
-              Address: Office No.1741, Tamani Arts Building,
+              Address: P2 ELOB Office No E 30 F 23,
               <br />
-              Business Bay, Dubai, United Arab Emirates
+              Hamriyah Free Zone, Sharjah, UAE
               <br />
               Tel: +971-6-5307996 <br />
               Email: info@internationalagora.com

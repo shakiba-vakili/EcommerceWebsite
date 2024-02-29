@@ -18,7 +18,7 @@ const data = [
     title: "Machinery",
     description:
       "We understand that in the food sector, precision, reliability, and efficiency are non-negotiable factors. That's why we're deeply committed to sourcing and trading the highest quality food machinery, designed to meet the rigorous demands of the industry. At Agora International, our reputation is built on an unwavering dedication to quality and trust in every piece of machinery we offer.",
-    description2: "Our portfolio boasts a diverse range of food industry machinery, from food processing and packaging equipment to quality control systems and refrigeration solutions. We're more than just traders; we're purveyors of excellence. Every machine we source undergoes meticulous quality checks to ensure it meets the stringent industry standards. When you choose Agora International for your food machinery needs, you're making a choice for quality, precision, and a commitment to excellence.",
+    description2: "Our portfolio boasts a diverse range of not only food industry machinery, it could include any processing and packaging equipment to quality control systems used in general purpose industries. We're more than just traders; we're purveyors of excellence. Every machine we source undergoes meticulous quality checks to ensure it meets the stringent industry standards. When you choose Agora International for your machinery/spare part needs, you're making a choice for quality, precision, and a commitment to excellence.",
   },
   {
     src: "test28.jpg",
